@@ -1,23 +1,23 @@
 \documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
 \usepackage{tocbibind} % Incluye el índice en el ToC y ajusta la numeración
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue, filecolor=blue]{hyperref}
-\usepackage[utf8]{inputenc}
-\usepackage{csquotes}
 \usepackage[spanish, mexico]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{float}
-\usepackage{ebgaramond}
-\date{\today}
 \usepackage[backend=biber,style=ieee,language=spanish]{biblatex}
-\addbibresource{references.bib}
 \usepackage[iso]{datetime}
-\usepackage[right=4cm]{geometry}  % Incrementa el margen derecho
+\usepackage{paralelo}
 
+
+\addbibresource{references.bib}
+\date{\today}
 \begin{document}
 
 \input{portada.tex}

@@ -1,0 +1,19 @@
+% Define el paquete
+\ProvidesPackage{paralelo}
+
+% Carga los paquetes necesarios
+\RequirePackage{fontspec}
+\RequirePackage{titlesec}
+
+\usepackage{newtxtext}
+\usepackage[tmargin=1in,bmargin=1in,lmargin=1.25in,rmargin=1.25in]{geometry}
+
+
+% Configura los tamaños de los títulos
+\titleformat{\section}
+  {\normalfont\fontsize{12}{15}\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\fontsize{14}{17}\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{16}{19}\bfseries}{\thesubsubsection}{1em}{}
+  
