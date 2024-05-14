@@ -1,0 +1,7 @@
+\section*{Resumen}
+
+Las series de Fourier y el cómputo paralelo son herramientas matemáticas y computacionales con una amplia gama de aplicaciones en diversos campos. La combinación de estas dos herramientas puede ser muy poderosa para resolver problemas complejos de manera eficiente.
+
+Existen diversas aplicaciones en la actualidad, por ejemplo: análisis de señales, procesamiento de imágenes, comprensión de lenguaje natural, simbología, etc; por lo que las series de Fourier se pueden utilizar para descomponer un problema en una serie de subproblemas más pequeños que se pueden resolver en paralelo.
+
+Este documento tiene como objetivo el utilizar un procesamiento de datos por medio de hilos, los cuales se crean al momento de ejecución, lo que permite realizar los cálculos mediante todos los núcleos que se encuentren disponibles, estos hilos están creándose y destruyéndose en el mismo programa el cual se considera como el ``hilo principal'', dando como resultado que se ejecuten todos los cálculos a la vez, agilizando el proceso y sin necesidad de un semáforo que gestione los turnos.

@@ -1,0 +1,41 @@
+\documentclass{article}
+\usepackage{tocbibind} % Incluye el índice en el ToC y ajusta la numeración
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue, filecolor=blue]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[spanish, mexico]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{ebgaramond}
+\date{\today}
+\usepackage[backend=biber,style=ieee,language=spanish]{biblatex}
+\addbibresource{references.bib}
+\usepackage[iso]{datetime}
+\usepackage[right=4cm]{geometry}  % Incrementa el margen derecho
+
+\begin{document}
+
+\input{portada.tex}
+\input{resumen.tex}
+
+\pagenumbering{roman}
+\tableofcontents
+\clearpage
+\pagenumbering{arabic}
+\input{introduccion.tex}
+\input{marco_teorico.tex}
+\input{resolucion_ecuacion.tex}
+\input{representacion_hoja_calculo.tex}
+\input{tablas.tex}
+\input{programacion_fourier_c.tex}
+\input{conclusiones.tex}
+\nocite{*}
+\newpage
+\printbibliography%Writing the bibliography
+\addcontentsline{toc}{section}{Bibliography}%Including it as a chapter
+\end{document}

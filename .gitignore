@@ -1,0 +1,16 @@
+# Ignorar archivos y carpetas generados por LaTeX
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.pdf
+
+# Ignorar la carpeta de media (si no quieres rastrear archivos grandes de media)
+# media/
