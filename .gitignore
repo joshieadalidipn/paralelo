@@ -11,6 +11,6 @@
 *.synctex.gz
 *.toc
 *.pdf
-
+*.xdv
 # Ignorar la carpeta de media (si no quieres rastrear archivos grandes de media)
 # media/
