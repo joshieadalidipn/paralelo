@@ -14,3 +14,4 @@
 *.xdv
 # Ignorar la carpeta de media (si no quieres rastrear archivos grandes de media)
 # media/
+docx/.~lock.output.docx#
