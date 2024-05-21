@@ -1,4 +1,3 @@
-
 \section{Conclusiones}
 \subsection{Juárez Botello Josué Adalid}
 
@@ -28,7 +27,16 @@ Después, en el caso del uso de hilos en vez de semáforos{[}25{]}, esta impleme
 
 Este proyecto no solo ha reforzado nuestros conocimientos y habilidades en matemáticas y programación, sino que también ha agudizado nuestra capacidad para aplicar estos conceptos en escenarios prácticos, preparándonos mejor para los desafíos del mundo real.
 
-\subsection{Juarez Tolamatl Oscar Uriel}\label{juarez-tolamatl-oscar-uriel}
+% Fase 5
+MPI, al facilitar la paralelización de tareas, ha demostrado ser crucial en la computación de series de Fourier. Su capacidad para distribuir eficientemente la carga de trabajo entre múltiples procesadores acelera significativamente el cálculo de los coeficientes de Fourier, permitiendo manejar grandes volúmenes de datos con mayor rapidez y precisión.
+
+Además, la visualización de las series de Fourier, apoyada en herramientas computacionales, es vital para observar cómo la suma de ondas simples se aproxima a la función original y cómo la cantidad de términos afecta la calidad de la representación. 
+
+El uso de MPI no solo optimiza el tiempo de cálculo, sino que también permite explorar aplicaciones prácticas en ingeniería, como el procesamiento de señales y el análisis vibratorio, de manera más eficiente. Esta experiencia destaca la importancia de combinar el conocimiento teórico con herramientas avanzadas de computación para resolver problemas complejos en el mundo real.
+
+En resumen, aunque el proceso manual refuerza la comprensión de los conceptos matemáticos, la implementación de MPI y otras herramientas computacionales es esencial para la eficiencia y precisión en el análisis de series de Fourier, ampliando las posibilidades de aplicación en diversas áreas de la ingeniería.
+
+\subsection{Juárez Tolamatl Oscar Uriel}
 
 Es interesante indagar en la serie de fourier, debido al gran impacto que ha tenido en estos tiempos modernos, aunque en un inicio no parece tan importante, cuando empiezas a adentrarte en su funcionamiento y sus aplicaciones las cosas cambian.
 
@@ -44,25 +52,28 @@ Si es posible hacerlo con una ecuación nada importante, imaginar lo que se podr
 
 En la anterior fase del proyecto pudimos obtener la serie de fourier de la ecuación correspondiente, pero solo fue de manera teórica; ahora, hemos podido observar el cómo es realmente esta serie después de ser evaluada desde los límites correspondientes.
 
-La serie de fourier, como ya hemos investigado, es la discretización de una función continua para poder digitalizarla y manipularla con equipos digitales, con lo que la serie se vuelve un poco cuadrada, y cómo podemos comparar la serie continua original con la serie continua de fourier, es posible ver el cómo esta señal difiere un poco en el comportamiento de movimiento de la función, y como se mueve en el espacio dentro de los límites de -2pi hasta 2pi.
+La serie de fourier, como ya hemos investigado, es la discretización de una función continua para poder digitalizarla y manipularla con equipos digitales, con lo que la serie se vuelve un poco cuadrada, y cómo podemos comparar la serie continua original con la serie continua de fourier, es posible ver el cómo esta señal difiere un poco en el comportamiento de movimiento de la función, y como se mueve en el espacio dentro de los límites de \(-2 \pi\) hasta \(2 \pi\).
 
-Aunque la manera de tabulación fue complicada debido a la cantidad de valores que se tomaron para n dentro de los límites, y después el sumar todos los valores para lograr tener una serie definida de fourier, se pudo agilizar gracias a que se utilizó una herramienta externa como lo es excel, el cual nos permite hacer cálculos complicados y tabulaciones si es que se ocupa de manera correcta, obteniendo una gran cantidad de valores que para una persona normal haciendo a mano le tomaría mucho más tiempo en realizar.
+Aunque la manera de tabulación fue complicada debido a la cantidad de valores que se tomaron para n dentro de los límites, y después el sumar todos los valores para lograr tener una serie definida de Fourier, se pudo agilizar gracias a que se utilizó una herramienta externa como lo es Excel, el cual nos permite hacer cálculos complicados y tabulaciones si es que se ocupa de manera correcta, obteniendo una gran cantidad de valores que para una persona normal haciendo a mano le tomaría mucho más tiempo en realizar.
 
-Finalmente, ver el cómo una función de transformación de una señal agiliza el proceso, junto con las herramientas que tenemos disponibles, nos hace pensar el cómo se realizaban estos cálculos antes de que existiera este método, la cantidad de tiempo que se invertía y todo el procedimiento tedioso por detrás, gracias a esta transformación que es la serie de fourier es mucho más corto y fácil, con un resultado eficaz.
+Finalmente, ver el cómo una función de transformación de una señal agiliza el proceso, junto con las herramientas que tenemos disponibles, nos hace pensar el cómo se realizaban estos cálculos antes de que existiera este método, la cantidad de tiempo que se invertía y todo el procedimiento tedioso por detrás, gracias a esta transformación que es la serie de Fourier es mucho más corto y fácil, con un resultado eficaz.
 
-Esta fase 3 del proyecto fue interesante, pues en las anteriores partes hicimos primero el cálculo de la función de fourier para nuestra ecuación correspondiente, y después graficamos la función original y la serie de fourier correspondiente, con lo que pudimos comparar ambas graficaciones.
+Esta fase 3 del proyecto fue interesante, pues en las anteriores partes hicimos primero el cálculo de la función de Fourier para nuestra ecuación correspondiente, y después graficamos la función original y la serie de Fourier correspondiente, con lo que pudimos comparar ambas graficaciones.
 
-La serie de fourier tiene diversas variables que se obtienen de acuerdo a los datos que poseemos, una de ellas es la variable "n" la cual representa el numero de veces que se dividirá el dominio de la ecuación para calcular los valores dentro de esos límites, en el caso de -2pi hasta 2pi se divide entre 100, lo que crea que se deba calcular 100 veces el valor de las variables an y bn, lo cual es relativamente facil pero tardado.
+La serie de fourier tiene diversas variables que se obtienen de acuerdo a los datos que poseemos, una de ellas es la variable "n" la cual representa el numero de veces que se dividirá el dominio de la ecuación para calcular los valores dentro de esos límites, en el caso de \(-2 \pi\) hasta \(2 \pi\) se divide entre 100, lo que crea que se deba calcular 100 veces el valor de las variables an y bn, lo cual es relativamente fácil pero tardado.
 
-Gracias al computo paralelo, pudimos realizar en la totalidad los calculos de cada una de las variables, lo cual nos ayuda a agilizar el proceso de obtener los valores de la serie buscados, para luego sumarlos y graficar cada uno de esos 100 puntos.
+Gracias al computo paralelo, pudimos realizar en la totalidad los cálculos de cada una de las variables, lo cual nos ayuda a agilizar el proceso de obtener los valores de la serie buscados, para luego sumarlos y graficar cada uno de esos 100 puntos.
 
-Lo que un humano tardaria mucho tiempo y esfuerzo en calcular, lo hizo una maquina en poco tiempo, utilizando sus recursos disponibles pero obteniendo resultados favorables, todo gracias a la paralelizacion de procedimientos.
+Lo que un humano tardaría mucho tiempo y esfuerzo en calcular, lo hizo una maquina en poco tiempo, utilizando sus recursos disponibles pero obteniendo resultados favorables, todo gracias a la paralelización de procedimientos.
 
-Con esto en mente, es posible traspazar tareas tardías a las máquinas para que las hagan en menor tiempo y tener resultados más rápido en menor tiempo, agilizando los procesos de cálculo dentro de un sistema, logrando un gran avance en los cálculos en escalas enormes.
+Con esto en mente, es posible traspasar tareas tardías a las máquinas para que las hagan en menor tiempo y tener resultados más rápido en menor tiempo, agilizando los procesos de cálculo dentro de un sistema, logrando un gran avance en los cálculos en escalas enormes.
 
-Ahora se ha hecho con hilos, se nota la diferencia de ejecución, pues es rápido y se utilizan los recursos disponibles, es interesante ver la cantidad de maneras que se pueden realizar este tipo de calculos.
+Ahora se ha hecho con hilos, se nota la diferencia de ejecución, pues es rápido y se utilizan los recursos disponibles, es interesante ver la cantidad de maneras que se pueden realizar este tipo de cálculos.
+% Fase 5
+La resolución de este problema con MPI fue interesante, pues la ejecución fue diferente al asignar el número de subprocesos desde el inicio, lo que permite tener un control sobre las ejecuciones de los cálculos de la serie de Fourier, pues mil cálculos se hacen más rápido dividiéndolos entre seis en comparación al ejecutarse en uno solo, además, en comparación a los hilos, no es tan complejo el seccionado de subprocesos, pues en los hilos se deben de gestionar el número de hilos que se crean, mientras que en MPI es más fácil la gestión de subprocesos. 
 
-\subsection{\texorpdfstring{Jimeno Reyes Magaly Citlali }{Jimeno Reyes Magaly Citlali }}\label{jimeno-reyes-magaly-citlali}
+Cada vez este proceso se va agilizando, con lo que la serie de Fourier se ha resuelto de una manera más sencilla, de modo que aprovechamos los recursos de una computadora para resolver estos procesos complejos al dividirlos en subproblemas más simples, con una ejecución más gestionable, de modo que se logre una buena gestión dentro de la resolución.
+\subsection{Jimeno Reyes Magaly Citlali }
 
 Las series de Fourier son una herramienta poderosa para analizar y representar funciones. Aunque el cálculo manual puede ser desafiante, la experiencia ofrece una comprensión profunda de los fundamentos matemáticos. Las herramientas computacionales, como las hojas de cálculo y la programación, simplifican el proceso y permiten trabajar con conjuntos de datos grandes.
 
@@ -92,6 +103,37 @@ Nos ha permitido explorar las aplicaciones de las series de Fourier en ingenier�
 
 Además en esta práctica podemos comparar los cálculos manuales con los generados en C. Por otro lado, al distribuir la carga de trabajo mediante hilos y semáforos, hemos logrado acelerar el cálculo de los coeficientes de la serie de Fourier, demostrando así la eficacia de las herramientas computacionales en el análisis y la manipulación de funciones.
 
+% Fase 5
+
+Las series de Fourier son una herramienta poderosa para analizar y representar funciones. Aunque el cálculo manual puede ser desafiante, la experiencia ofrece una comprensión profunda de los fundamentos matemáticos. Las herramientas computacionales, como las hojas de cálculo y la programación, simplifican el proceso y permiten trabajar con conjuntos de datos grandes.
+
+Las series de Fourier son una herramienta poderosa para analizar y representar funciones. Aunque el cálculo manual puede ser desafiante, la experiencia ofrece una comprensión profunda de los fundamentos matemáticos. Las herramientas computacionales, como las hojas de cálculo y la programación, simplifican el proceso y permiten trabajar con conjuntos de datos grandes, sin embargo, el proceso manual refuerza la comprensión de los conceptos matemáticos y la mecánica de las series de Fourier y permite desarrollar la capacidad de resolver problemas complejos de forma meticulosa y precisa.
+
+Las series de Fourier tienen una amplia gama de aplicaciones en ingeniería, incluyendo:
+
+\begin{itemize}
+	\item Procesamiento de señales: Análisis y manipulación de señales de audio, video y otras.
+	\item Control de sistemas: Diseño de sistemas de control para robots, máquinas y otros dispositivos.
+	\item Análisis vibratorio: Estudio de las vibraciones en estructuras y máquinas.
+\end{itemize}
+
+La visualización de las series de Fourier es crucial para comprender su comportamiento y analizar su precisión. Permite observar cómo la suma de ondas simples se aproxima a la función original, y cómo la cantidad de términos afecta la calidad de la representación.
+
+Algunas herramientas como Excel, Python y Google Sheets ofrecen herramientas básicas para graficar series de Fourier. Es importante elegir un rango adecuado para el eje x y el eje y para visualizar la función original y la serie de Fourier con precisión, además de mostrar diferentes gráficas con distintos números de términos para observar cómo la serie converge a la función original.
+
+Es importante destacar que la experiencia de escribir una serie de Fourier a mano, aunque desafiante, puede ser enriquecedora. Te obliga a pensar cuidadosamente en cada paso del proceso y te ayuda a desarrollar una comprensión profunda de las matemáticas involucradas. Sin embargo, para aplicaciones prácticas en el mundo real, las herramientas computacionales son invaluables. Te permiten trabajar con conjuntos de datos grandes de manera eficiente y precisa, lo que es esencial para resolver problemas complejos de ingeniería.
+
+La implementación práctica de la serie de Fourier en C nos ha permitido experimentar con conceptos complejos de forma tangible. Hemos podido ver cómo la serie de Fourier puede descomponer una función en sus componentes básicos, las ondas sinusoidales, y luego recomponerla para aproximar la función original. El uso de hilos y semáforos ha permitido distribuir la carga de trabajo y acelerar el cálculo de los coeficientes de la serie de Fourier.
+
+La visualización de las series de Fourier es crucial para comprender su comportamiento y analizar su precisión. Permite observar cómo la suma de ondas simples se aproxima a la función original, y cómo la cantidad de términos afecta la calidad de la representación. En nuestra implementación, hemos utilizado herramientas como: Python, C y Google Sheets para graficar las series de Fourier y observar su convergencia a la función original.
+
+Nos ha permitido explorar las aplicaciones de las series de Fourier en ingeniería y comprender la importancia de la visualización en el análisis de funciones complejas. Aunque el proceso manual refuerza la comprensión de los conceptos matemáticos, las herramientas computacionales son esenciales para trabajar eficientemente con conjuntos de datos grandes y resolver problemas complejos en el mundo real.
+
+Además, en esta práctica podemos comparar los cálculos manuales con los generados en C. Por otro lado, al distribuir la carga de trabajo mediante hilos y semáforos, hemos logrado acelerar el cálculo de los coeficientes de la serie de Fourier, demostrando así la eficacia de las herramientas computacionales en el análisis y la manipulación de funciones.
+
+El desarrollo de código para calcular los valores de las tablas y la experiencia en la programación complementan este proceso, brindando una visión completa de cómo las series de Fourier pueden aplicarse en situaciones prácticas y cómo las herramientas computacionales pueden potenciar este análisis.
+
+
 \subsection{Porra Zuñiga Braulio Gael}
 
 Las series de Fourier son una herramienta poderosa para analizar y representar funciones. Aunque el cálculo manual puede ser desafiante, la experiencia ofrece una comprensión profunda de los fundamentos matemáticos. Las herramientas computacionales, como las hojas de cálculo y la programación, simplifican el proceso y permiten trabajar con conjuntos de datos grandes.
@@ -115,3 +157,8 @@ Nos ha permitido explorar las aplicaciones de las series de Fourier en ingenier�
 Al comparar la evaluación de series de Fourier a mano con el uso de herramientas computacionales como hilos y procesos hijos, se destaca la diferencia en eficiencia y comprensión conceptual. Mientras que realizar cálculos a mano refuerza la comprensión de los fundamentos matemáticos y la mecánica subyacente de las series de Fourier, la programación con hilos y procesos hijos demuestra una eficacia superior en términos de velocidad y manejo de grandes conjuntos de datos. La aproximación a mano, aunque meticulosa y educativa, se ve superada por la automatización y la precisión que ofrecen los métodos computacionales. Sin embargo, este último requiere una comprensión previa de los conceptos matemáticos para una implementación correcta y eficiente, lo que nos lleva a concluir que la combinación de ambos enfoques podría proporcionar una base sólida para el aprendizaje académico y la aplicación práctica.
 
 El uso de hojas de cálculo para la evaluación de la serie de Fourier ofrece una alternativa más accesible y menos técnica en comparación con la programación con hilos y procesos hijos. Aunque las hojas de cálculo pueden ser menos intimidantes y proporcionan una interfaz gráfica intuitiva para la visualización de resultados, suelen ser menos eficientes en el manejo de cálculos complejos y extensos. Por otro lado, los hilos y procesos hijos aprovechan la capacidad de procesamiento paralelo de las computadoras modernas, lo que resulta en un rendimiento significativamente mayor. Aunque la curva de aprendizaje para estas técnicas de programación es más pronunciada, el potencial de escalabilidad y la precisión que ofrecen son insuperables, especialmente cuando se trata de aplicaciones de ingeniería donde se manejan grandes volúmenes de datos y se requiere un alto grado de precisión. Al evaluar la efectividad y aplicabilidad de cada método, es crucial considerar el contexto educativo y las metas de aprendizaje. Trabajar a mano o con hojas de cálculo podría ser suficiente y más práctico. Sin embargo, para estudios avanzados o aplicaciones profesionales, especialmente en el campo de la ingeniería y la ciencia de datos, la programación con hilos y procesos hijos es claramente superior. No solo proporciona una profundidad de análisis y una eficiencia que los otros métodos no pueden igualar.
+
+% Fase 5
+
+OpenMPI es una biblioteca que permite la programación de aplicaciones paralelas en sistemas distribuidos. Implementar la resolución de la serie de Fourier con OpenMPI implicó dividir el trabajo entre varios nodos de computación. Cada nodo calculaba una parte de la serie, y luego los resultados se combinaban. Esta experiencia mostró cómo OpenMPI puede mejorar drásticamente el rendimiento en sistemas de computación de alto rendimiento (HPC), permitiendo resolver problemas complejos en tiempos significativamente reducidos.
+La implementación del análisis de Fourier utilizando MPI y OpenMPI demostró ser una solución efectiva para manejar cálculos complejos y grandes volúmenes de datos. Desde las hojas de cálculo hasta la programación paralela avanzada, cada fase del proyecto destacó la importancia de las técnicas de programación paralela en la resolución eficiente de problemas científicos

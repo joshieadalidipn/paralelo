@@ -15,3 +15,8 @@
 # Ignorar la carpeta de media (si no quieres rastrear archivos grandes de media)
 # media/
 docx/.~lock.output.docx#
+code/6BV1_AP_AM_Fase3.docx
+code/fourier_data.csv
+code/graphing.py
+code/requirements.txt
+code/fourier_mpi.c

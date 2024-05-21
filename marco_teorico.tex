@@ -1,6 +1,5 @@
-\section{\texorpdfstring{Marco Teórico }{Marco Teórico }}\label{marco-teuxf3rico}
-
-\subsection{Series de Fourier}\label{series-de-fourier}
+\section{Marco Teórico }
+\subsection{Series de Fourier}
 
 Las series de Fourier son una herramienta matemática que permite representar funciones periódicas como una suma de funciones sinusoidales. Cualquier función periódica continua puede ser representada por una serie de Fourier. Estas series surgen de la tarea práctica de representar una función periódica dada en términos de funciones coseno y seno. Estas series son trigonométricas cuyos coeficientes se determinan a partir de () mediante ciertas fórmulas (fórmulas de Euler), las cuales se establecerán primero. Después se considerará la teoría de las series de Fourier.
 
@@ -9,27 +8,33 @@ Las series de Fourier permiten identificar los componentes de frecuencia de una 
 La idea principal detrás de las series de Fourier es que cualquier señal periódica puede ser descompuesta en una suma infinita de componentes sinusoidales de diferentes frecuencias, conocidas como armónicos. Esta descomposición permite analizar y entender el comportamiento de la señal en términos de sus componentes básicos.
 
 Matemáticamente, una serie de Fourier para una función periódica f(x) con período T se expresa como la \emph{serie de Fourier}\eqref{eq:serie_de_fourier}.
-\begin{equation}
+\begin{figure}[H]
+	\begin{equation}
 	f(t) = \frac{a_0}{2} + \sum_{n=1}^{+\infty} (a_n \cos(nt) + b_n \sin(nt))	
 	\label{eq:serie_de_fourier}
 \end{equation}
+\caption{Serie de Fourier}
+\end{figure}
 
-
-\includegraphics[width=3.61614in,height=0.76218in]{media/image20.png}\cite*{unknown-author-no-dateK}
-
-\emph{Imagen 1 - Serie de Fourier}
 
 Donde posteriormente existe la participación de las fórmulas de Euler
 
-\includegraphics[width=3.15104in,height=0.96032in]{media/image3.png}
+\begin{figure}[H]
+	\begin{equation}
+		\begin{aligned}
+			a_n &= \frac{1}{\pi} \int_{-\pi}^{\pi} \operatorname{f}(x) \cos(nt) \dd{t} \quad \text{para todo } n \geq 0 \\
+			b_n &= \frac{1}{\pi} \int_{-\pi}^{\pi} \operatorname{f}(x) \sin(nt) \dd{t} \quad \text{para todo } n > 0
+		\end{aligned}
+		\label{eq:fourier_coeffs}
+	\end{equation}
+	\caption{Coeficientes de la Serie de Fourier}
+\end{figure}
 
-\emph{Imagen 2 - Serie de Fourier}
+Finalmente los números dados en \eqref{eq:fourier_coeffs} se denominan coeficientes de Fourier de \(\operatorname{f}(t)\). La serie trigonométrica con coeficientes dados, \emph{a y b} se denomina serie de Fourier de \(\operatorname{f}(t)\).
 
-Finalmente los números dados en la \emph{Imagen 2 - Serie de Fourier} se denominan coeficientes de Fourier de f(t). La serie trigonométrica con coeficientes dados, \emph{a y b} se denomina serie de Fourier de f(t).
+La forma canónica de las series de Fourier es la que hemos estado utilizando hasta el momento, donde la función en cuestión estaba definida sobre el intervalo \([-\pi, \pi]\).
 
-La forma canónica de las series de Fourier es la que hemos estado utilizando hasta el momento, donde la función en cuestión estaba definida sobre el intervalo {[}-pi, pi{]}.
-
-\subsection{Cómputo paralelo}\label{cuxf3mputo-paralelo}
+\subsection{Cómputo paralelo}
 
 El cómputo paralelo es una técnica que permite ejecutar programas en varios procesadores al mismo tiempo.
 

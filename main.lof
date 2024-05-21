@@ -1,0 +1,30 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Serie de Fourier}}{10}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Coeficientes de la Serie de Fourier}}{10}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Función original en el rango \(-2\pi \) a \(2\pi \)}}{37}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Cálculo de \(a_n\) y \(b_n\)}}{38}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Matriz de cálculo de los coeficientes de la serie}}{38}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Cálculo de la serie}}{39}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Código}}{40}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Función calculate coefficients}}{41}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Función fourier approximation}}{41}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Función export\_to\_csv}}{42}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Función main}}{42}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Ejecución en Linux}}{43}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Aproximación para la serie de Fourier}}{43}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Aproximación para la serie de Fourier}}{44}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Gráfica original y aproximación de Fourier en C}}{44}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Código 1. Fuente: Autoría propia}}{45}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Código 2. Fuente: Autoría propia}}{45}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Código 3. Fuente: Autoría propia}}{46}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Código 4. Fuente: Autoría propia}}{46}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Código 5. Fuente: Autoría propia}}{46}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Código 6. Fuente: Autoría propia}}{47}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Compilación y ejecución. Fuente: Autoría propia}}{47}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Datos de archivo CSV. Fuente: Autoría propia}}{48}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Gráfica generada. Fuente: Autoría propia}}{48}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Comparación de la función original contra la aproximación de la serie de Fourier, calculado con la tecnología de MPI}}{49}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 1 de 4.}}{49}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 2 de 4.}}{50}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 3 de 4.}}{50}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 4 de 4.}}{50}{figure.29}%
