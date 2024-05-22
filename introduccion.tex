@@ -29,7 +29,7 @@ En 1962, gracias a las técnicas de difracción de rayos X, y el análisis de Fo
 \subsection{Cómo se ha aplicado el análisis de Fourier en la tecnología}
 
 El análisis de Fourier es súper útil en muchas áreas, incluso en cosas que usamos todos los días pero quizás no lo notamos. Vamos a ver cómo se aplica en diferentes campos.
-
+Tolamatl
 Primero, en telecomunicaciones, el análisis de Fourier es clave. Por ejemplo, en la modulación de frecuencia, que es como las radios transmiten música y voz. Lo que hacen es cambiar la frecuencia de una onda para enviar información. Luego está la compresión de audio, donde descomponen los sonidos en varias frecuencias para quitar partes que no necesitamos y hacer los archivos más pequeños. Y también ayuda a quitar ruido de las grabaciones, seleccionando solo las partes importantes de una señal.
 
 En el procesamiento de imágenes, Fourier también es muy útil. Se usa para mejorar o quitar cosas de las fotos con algo llamado filtrado de imágenes. Esto puede hacer que algunas cosas se vean mejor o peor, dependiendo de lo que necesites. También ayuda a hacer las fotos más pequeñas sin perder mucha calidad, algo super útil para enviar imágenes por internet. Y algo muy beneficioso es que ayuda a que las computadoras reconozcan cosas en las fotos, como rostros al alcance de una aplicación.
@@ -134,7 +134,7 @@ Para utilizar la función fork() en un programa escrito en lenguaje C y destinad
 
 La memoria compartida es un mecanismo de comunicación entre procesos (IPC) que permite a múltiples procesos acceder y modificar una región de memoria física de forma simultánea. Esto resulta particularmente útil en entornos de programación paralela, donde varios procesos colaboran en la ejecución de una tarea. En C, la memoria compartida se implementa utilizando funciones del sistema POSIX (Portable Operating System Interface) o mediante la biblioteca Windows API.
 
-\subsubsection{Principios Fundamentales}
+\subsubsection{Principios fundamentales}
 
 \textbf{Espacio de Memoria Común}: La memoria compartida crea una región de memoria física accesible para todos los procesos involucrados. Esta región no pertenece a ningún proceso en particular, sino que se comparte entre ellos.
 
@@ -142,7 +142,7 @@ La memoria compartida es un mecanismo de comunicación entre procesos (IPC) que 
 
 \textbf{Mapeo de Memoria}: Cada proceso que desea acceder a la memoria compartida debe mapearla en su propio espacio de direcciones virtual. Esto permite que el proceso trate la región compartida como si fuera parte de su propia memoria privada.
 
-\subsubsection{Ventajas de la Memoria Compartida}
+\subsubsection{Ventajas de la memoria compartida}
 
 \textbf{Comunicación Eficiente}: La memoria compartida ofrece una forma de comunicación entre procesos (IPC) muy eficiente, especialmente cuando se requiere un alto rendimiento y baja latencia.
 
@@ -150,7 +150,7 @@ La memoria compartida es un mecanismo de comunicación entre procesos (IPC) que 
 
 \textbf{Flexibilidad}: La memoria compartida puede usarse para compartir cualquier tipo de dato, desde estructuras simples hasta grandes matrices multidimensionales.
 
-\subsubsection{Desventajas de la Memoria Compartida}
+\subsubsection{Desventajas de la memoria compartida}
 
 \textbf{Complejidad:} La implementación de la memoria compartida puede ser más compleja que otros mecanismos de IPC, como la mensajería de colas o las tuberías.
 
@@ -158,7 +158,7 @@ La memoria compartida es un mecanismo de comunicación entre procesos (IPC) que 
 
 \textbf{Seguridad:} La memoria compartida puede ser vulnerable a ataques si no se implementan las medidas de seguridad adecuadas.
 
-\subsubsection{Estructura de un Programa con Memoria Compartida}
+\subsubsection{Estructura de un programa con memoria compartida}
 
 Un programa típico que utiliza memoria compartida en C consta de las siguientes etapas:
 
@@ -172,7 +172,7 @@ Un programa típico que utiliza memoria compartida en C consta de las siguientes
 
 \textbf{Destrucción de la Memoria Compartida}: El último proceso que finaliza libera la memoria compartida utilizando funciones del sistema POSIX o Windows API.
 
-\subsubsection{Ejemplos de Uso de la Memoria Compartida}
+\subsubsection{Ejemplos de uso de la memoria compartida}
 
 \textbf{Implementación de Cachés:} La memoria compartida se puede usar para implementar cachés compartidos entre procesos, lo que mejora el rendimiento al reducir el acceso a datos lentos como el disco duro.
 
@@ -184,27 +184,40 @@ Un programa típico que utiliza memoria compartida en C consta de las siguientes
 
 Los semáforos son un mecanismo de sincronización fundamental en la programación concurrente, particularmente en el lenguaje C. Permiten controlar el acceso a recursos compartidos entre múltiples procesos o hilos de ejecución, evitando conflictos de datos y garantizando la integridad de la información.
 
-\subsubsection{Principios Fundamentales}
+\subsubsection{Principios fundamentales}
 
-\begin{enumerate} \def\labelenumi{\arabic{enumi}.} \item   Recursos Compartidos: Los semáforos protegen recursos compartidos,   como variables, estructuras de datos o secciones de código. Cada   recurso compartido está asociado a un semáforo específico. \item   Valor del Semáforo: El valor de un semáforo representa el número de   unidades de acceso disponibles al recurso compartido asociado. Un   valor positivo indica que el recurso está disponible, mientras que un   valor cero indica que el recurso está actualmente en uso. \item   Operaciones Básicas: Las operaciones básicas sobre semáforos son:
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.}
+	\item   Recursos Compartidos: Los semáforos protegen recursos compartidos,   como variables, estructuras de datos o secciones de código. Cada   recurso compartido está asociado a un semáforo específico.
+	\item   Valor del Semáforo: El valor de un semáforo representa el número de   unidades de acceso disponibles al recurso compartido asociado. Un   valor positivo indica que el recurso está disponible, mientras que un   valor cero indica que el recurso está actualmente en uso.
+	\item   Operaciones Básicas: Las operaciones básicas sobre semáforos son:
+	\begin{itemize}
+		\item P(sem): Decrementa el valor del semáforo en una unidad. Si el valor     es cero, el proceso se bloquea hasta que el valor se incrementa a     uno, liberando el recurso.
+		\item     V(sem): Incrementa el valor del semáforo en una unidad. Si hay     procesos bloqueados esperando por el recurso, uno de ellos se libera     y puede continuar su ejecución.
+	\end{itemize}
+\end{enumerate}
 
-          \begin{itemize}   \item     P(sem): Decrementa el valor del semáforo en una unidad. Si el valor     es cero, el proceso se bloquea hasta que el valor se incrementa a     uno, liberando el recurso.   \item     V(sem): Incrementa el valor del semáforo en una unidad. Si hay     procesos bloqueados esperando por el recurso, uno de ellos se libera     y puede continuar su ejecución.   \end{itemize} \end{enumerate}
-
-\subsubsection{Implementación de Semáforos en C}
+\subsubsection{Implementación de semáforos en C}
 
 En C, los semáforos se implementan utilizando funciones del sistema POSIX (Portable Operating System Interface). Las funciones principales son:
 
-\begin{itemize} \item   sem\_open(): Crea o abre un semáforo existente. \item   sem\_wait(): Decrementa el valor del semáforo y bloquea el proceso si   es necesario. \item   sem\_post(): Incrementa el valor del semáforo y libera un proceso   bloqueado si hay alguno esperando. \item   sem\_close(): Cierra un semáforo. \item   sem\_unlink(): Elimina un semáforo del sistema. \end{itemize}
+\begin{itemize}
+	\item sem\_open(): Crea o abre un semáforo existente.
+	\item sem\_wait(): Decrementa el valor del semáforo y bloquea el proceso si es necesario.
+	\item sem\_post(): Incrementa el valor del semáforo y libera un proceso bloqueado si hay alguno esperando.
+	\item sem\_close(): Cierra un semáforo.
+	\item sem\_unlink(): Elimina un semáforo del sistema.
+\end{itemize}
 
-Ventajas de los Semáforos
+Ventajas de los semáforos
 
-\textbf{Sincronización Eficiente}: Los semáforos proporcionan una forma eficiente de sincronizar el acceso a recursos compartidos entre múltiples procesos o hilos.
+\textbf{Sincronización eficiente}: Los semáforos proporcionan una forma eficiente de sincronizar el acceso a recursos compartidos entre múltiples procesos o hilos.
 
-\textbf{Prevención de Conflictos de Datos}: Los semáforos evitan conflictos de datos al garantizar que solo un proceso acceda a un recurso crítico a la vez.
+\textbf{Prevención de conflictos de datos}: Los semáforos evitan conflictos de datos al garantizar que solo un proceso acceda a un recurso crítico a la vez.
 
 \textbf{Flexibilidad}: Los semáforos se pueden utilizar para sincronizar una amplia gama de recursos compartidos, desde variables simples hasta estructuras de datos complejas.
 
-\subsubsection{Desventajas de los Semáforos}
+\subsubsection{Desventajas de los semáforos}
 
 \textbf{Problemas de Bloqueo:} Si los semáforos no se utilizan correctamente, pueden surgir problemas de bloqueo, donde los procesos se bloquean esperando recursos que nunca estarán disponibles.
 
@@ -220,19 +233,48 @@ Cuando un hilo crea múltiples hilos, se le conoce como ``ejecución multihilo''
 
 Los hilos logran que un programa se vuelva muy eficiente cuando puede explotar los recursos disponibles de una manera aceptable, todos los hilos comparten características entre ellas:
 
-\begin{itemize} \item   El espacio de direcciones \item   El ID del proceso \item   El ID del proceso padre \item   El ID del proceso líder del grupo \item   Los identificadores de usuario y grupo \item   El directorio de trabajo raiz y actual \item   La tabla de descriptores de archivos \item   El timer de proceso \end{itemize}
+\begin{itemize}
+	\item   El espacio de direcciones
+	\item   El ID del proceso
+	\item   El ID del proceso padre
+	\item   El ID del proceso líder del grupo
+	\item   Los identificadores de usuario y grupo
+	\item   El directorio de trabajo raíz y actual
+	\item   La tabla de descriptores de archivos
+	\item   El timer de proceso
+\end{itemize}
 
 Los hilos también poseen características que no comparten con sus pares, tales como:
 
-\begin{itemize} \item   Un identificador de hilo unico \item   La política de planificación y prioridad \item   Una variable errno por hilo \item   Datos específicos por hilo \item   Gestores de cancelación por hilo \item   Máscara de señales por hilo \end{itemize}
+\begin{itemize}
+	\item   Un identificador de hilo único
+	\item   La política de planificación y prioridad
+	\item   Una variable \texttt{errno} por hilo
+	\item   Datos específicos por hilo
+	\item   Gestores de cancelación por hilo
+	\item   Máscara de señales por hilo
+\end{itemize}
 
 Y las operaciones posibles dentro de un hilo son:
 
-\begin{itemize} \item   Creacion y destruccion \item   Sincronización entre hilos \item   Posibilidad de disponer para cada hilo memoria compartida \item   Gestión de prioridades entre hilos y de señales. \end{itemize}
+\begin{itemize}
+	\item   Creación y destrucción
+	\item   Sincronización entre hilos
+	\item   Posibilidad de disponer para cada hilo memoria compartida
+	\item   Gestión de prioridades entre hilos y de señales.
+\end{itemize}
 
-\subsubsection{Implementación de Hilos en C}
+\subsubsection{Implementación de hilos en C}
 
 Las funciones posibles para gestionar los hilos son:
 
-\begin{itemize} \item   pthread\_create: crea un hilo \item   pthread\_equal: verifica la igualdad de dos identificadores de hilo \item   pthread\_exit: termina el hilo que realiza la llamada \item   pthread\_join: espera por el término de un hilo específico \item   pthread\_self: regresa el ID del hilo que realiza la llamada \item   pthread\_detach: configura la liberación de recursos cuando termina   (hilo independiente) \item   pthread\_getschedparam: obtiene la política de planificación y   parámetros de un hilo específico \item   pthread\_setschedparam: establece la política de planificación y   parámetros de un hilo especifico \item   pthread\_kill: envía una señal de terminar a un hilo específico \item   pthread\_cancel: Permite a un hilo cancelar otro hilo del mismo   proceso. \end{itemize}
-
+\begin{itemize}
+	\item   pthread\_create: crea un hilo
+	\item   pthread\_equal: verifica la igualdad de dos identificadores de hilo
+	\item   pthread\_exit: termina el hilo que realiza la llamada
+	\item   pthread\_join: espera por el término de un hilo específico
+	\item   pthread\_self: regresa el ID del hilo que realiza la llamada
+	\item   pthread\_detach: configura la liberación de recursos cuando termina (hilo independiente)
+	\item   pthread\_getschedparam: obtiene la política de planificación y parámetros de un hilo específico \item   pthread\_setschedparam: establece la política de planificación y parámetros de un hilo especifico \item   pthread\_kill: envía una señal de terminar a un hilo específico
+	\item   pthread\_cancel: Permite a un hilo cancelar otro hilo del mismo proceso.
+\end{itemize}

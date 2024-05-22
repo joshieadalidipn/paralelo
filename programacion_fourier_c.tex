@@ -12,36 +12,36 @@
 		\caption{Código}
 	\end{figure}
 	
-	\item La función \emph{calculate coefficients} se encarga de calcular los coeficientes de la serie de Fourier para un rango de términos n específico. Utiliza una técnica de sincronización con semáforos para garantizar que cada proceso realice sus cálculos de manera ordenada.
+	\item La función \texttt{calculate\_coefficients} se encarga de calcular los coeficientes de la serie de Fourier para un rango de términos n específico. Utiliza una técnica de sincronización con semáforos para garantizar que cada proceso realice sus cálculos de manera ordenada.
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5.64741in,height=3.85562in]{media/image39.png}
-		\caption{Función calculate coefficients}
+		\caption{Función \texttt{calculate\_coefficients}}
 	\end{figure}
 	
-	\item La función \emph{fourier\_approximation} calcula la aproximación de la función original utilizando los coeficientes de la serie de Fourier.
+	\item La función \texttt{fourier\_approximation} calcula la aproximación de la función original utilizando los coeficientes de la serie de Fourier.
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=6.26772in,height=1.08333in]{media/image11.png}
-		\caption{Función fourier approximation}
+		\caption{Función \texttt{fourier\_approximation}}
 	\end{figure}
 	
-	\item La función \emph{export\_to\_csv} exporta los resultados a un archivo CSV que contiene los valores de x, la función original y la aproximación de la serie de Fourier y\_fourier.
+	\item La función \texttt{export\_to\_csv} exporta los resultados a un archivo CSV que contiene los valores de x, la función original y la aproximación de la serie de Fourier y\_fourier.
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=5.02604in,height=2.61756in]{media/image50.png}
-		\caption{Función export\_to\_csv}
+		\caption{Función \texttt{export\_to\_csv}}
 	\end{figure}
 	
-	\item En la función main, se crea un segmento de memoria compartida para almacenar los coeficientes a y b, se crea un semáforo para la sincronización entre procesos y se generan varios procesos hijos para calcular los coeficientes de la serie de Fourier en paralelo. Después de que todos los procesos hayan terminado de calcular los coeficientes, se exportan los resultados a un archivo CSV y se liberan los recursos utilizados.
+	\item En la función \texttt{main}, se crea un segmento de memoria compartida para almacenar los coeficientes a y b, se crea un semáforo para la sincronización entre procesos y se generan varios procesos hijos para calcular los coeficientes de la serie de Fourier en paralelo. Después de que todos los procesos hayan terminado de calcular los coeficientes, se exportan los resultados a un archivo CSV y se liberan los recursos utilizados.
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=6.26772in,height=3.90278in]{media/image7.png}
-		\caption{Función main}
+		\caption{Función \texttt{main}}
 	\end{figure}
 	
 \end{enumerate}
@@ -50,12 +50,12 @@
 
 \begin{enumerate} 
 	\def\labelenumi{\arabic{enumi}.} 
-	\item Ejecución de código en linux
+	\item Ejecución de código en GNU/Linux
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[width=6.26772in,height=1.375in]{media/image29.png}
-		\caption{Ejecución en Linux}
+		\caption{Ejecución en GNU/Linux}
 	\end{figure}
 	
 	\item Visualización del archivo generado. Para cada x, su evaluación en la función a aproximar, y su aproximación de la serie de Fourier.
@@ -104,7 +104,7 @@ En este apartado se mostrará y explicará el código implementado ahora con hil
 		\caption{Código 2. Fuente: Autoría propia}
 	\end{figure}
 	
-	\item En la imagen 15, se define una función para resolver la serie de Fourier por medio de hilos, se divide la información para que pueda ser ejecutada miles de veces, y se crean los hilos separados para resolver los cálculos. Se pone separado el cálculo de a0 porque sólo se calcula una vez, mientras que an y bn deben ser calculados tantas veces como "n" existan.
+	\item En la imagen 15, se define una función para resolver la serie de Fourier por medio de hilos, se divide la información para que pueda ser ejecutada miles de veces, y se crean los hilos separados para resolver los cálculos. Se pone separado el cálculo de \(a0\) porque sólo se calcula una vez, mientras que an y bn deben ser calculados tantas veces como \(n\) existan.
 	
 	\begin{figure}[H]
 		\centering

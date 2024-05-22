@@ -1,7 +1,5 @@
 \documentclass{article}
-\usepackage[utf8]{inputenc}
 \usepackage{csquotes}
-\usepackage{tocbibind} % Incluye el índice en el ToC y ajusta la numeración
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue, filecolor=blue]{hyperref}
@@ -11,7 +9,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{float}
-\usepackage[backend=biber,style=apa,language=spanish]{biblatex}
+\usepackage[backend=biber,style=ieee,language=spanish]{biblatex}
 \usepackage[iso]{datetime}
 \usepackage{paralelo}
 \usepackage{physics} % Paquete de física
@@ -19,32 +17,32 @@
 \addbibresource{references.bib}
 \DeclareMathOperator{\f}{f}
 \date{\today}
+
 \begin{document}
-\begingroup
-\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
-\input{portada.tex}
-\input{resumen.tex}
-
-\pagenumbering{roman}
-\endgroup
-
-\tableofcontents
-
-\clearpage
-\pagenumbering{arabic}
-\begingroup
-\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
-\input{introduccion.tex}
-\input{marco_teorico.tex}
-\input{resolucion_ecuacion.tex}
-\input{representacion_hoja_calculo.tex}
-\input{tablas.tex}
-\input{programacion_fourier_c.tex}
-\input{conclusiones.tex}
-\endgroup
-
-\nocite{*}
-\newpage
-\printbibliography%Writing the bibliography
-\addcontentsline{toc}{section}{Bibliography}%Including it as a chapter
+	\begingroup
+	\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
+	\input{portada.tex}
+	\pagenumbering{roman}
+	\input{resumen.tex}
+	\endgroup
+	
+	\tableofcontents
+	\newpage
+	\pagenumbering{arabic}
+	
+	\begingroup
+	\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
+	\input{introduccion.tex}
+	\input{marco_teorico.tex}
+	\input{resolucion_ecuacion.tex}
+	\input{representacion_hoja_calculo.tex}
+	\input{tablas.tex}
+	\input{programacion_fourier_c.tex}
+	\input{conclusiones.tex}
+	\endgroup
+	
+	\nocite{*}
+	\newpage
+	\printbibliography[heading=bibnumbered]% Escribir la bibliografía
+	
 \end{document}
