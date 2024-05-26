@@ -2,17 +2,11 @@
 
 \subsection{Muestra el contexto de la serie de Fourier}
 
-Antes de la serie de Fourier, el análisis de las ecuaciones era un proceso complicado. Normalmente, si se tenía una ecuación, se tenía dos caminos: analizar sus partes para resolverla o realizar una transformación logarítmica, lo cual simplificaba su análisis para después realizar una transformación logarítmica inversa.
+Antes del desarrollo de la serie de Fourier, el análisis de ecuaciones era un proceso complicado. Normalmente, si se tenía una ecuación, se seguían dos caminos: analizar sus partes para resolverla o realizar una transformación logarítmica y luego su inversa para simplificar el análisis. En 1748, Jean Baptiste Joseph Fourier estudió los movimientos vibratorios de una cuerda y observó una vibración sinusoidal armónica. Con esto en mente, concluyó que sería posible representar la configuración de la cuerda como una combinación lineal de modos normales, válidos para instantes posteriores de tiempo.
 
-En 1748, Jean Baptiste Joseph Fourier estudió los movimientos vibratorios de una cuerda, notando una forma de vibración sinusoidal armónica. Con esto presente, concluyó que sería posible que en la configuración de la cuerda se pudiera representarlo como una combinación lineal de modos normales que serían válidos para los instantes siguientes de tiempo.
+En 1807, Fourier presentó a la Academia Francesa de las Ciencias sus estudios sobre la transmisión de calor, introduciendo un método de resolución para sus ecuaciones, conocido como la Transformada de Fourier. Aunque recibió un premio, sus resultados no eran rigurosos. Fourier afirmó que cualquier distribución calórica podría descomponerse en una suma de distribuciones espaciales sinusoidales, lo que se conoce como la Serie de Fourier. Esta afirmación recibió objeciones debido a la duda sobre la posibilidad de representar una función discontinua de esa manera. En 1829, Dirichlet revisó el trabajo de Fourier y estableció las condiciones necesarias para que una función continua pudiera representarse así. Esto permitió que todas las magnitudes físicas fueran representables y analizables mediante las teorías de Fourier.
 
-Fue así como en 1807 presentó a la Academia Francesa de las Ciencias resultados de estudios de transmisión de calor, presentando un método de resolución para sus ecuaciones, la cual sería nombrada como la Transformada de Fourier. Aunque se le otorgó un premio por ello, no presentaba resultados rigurosos.
-
-En dicho trabajo se afirma que cualquier distribución calórica podría descomponerse en una suma de distribuciones espaciales sinusoidales. A esta representación se le conoce como Serie de Fourier. Esta afirmación recibió objeciones debido a que se dudaba si era posible que una función discontinua pudiera representarse de esa manera.
-
-En 1829, Dirichlet revisó su trabajo y estableció las condiciones necesarias para que una función continua pudiera representarse así, de forma que ahora todas las magnitudes físicas eran posibles de representar y analizar por medio de las teorías de Fourier.
-
-Con ello, la Transformada de Fourier fue posible conseguir un cambio de dominio, de modo que era posible traspasar la información contenida dentro de una señal con un dominio temporal o espacial hacia la frecuencia y viceversa. Por lo tanto, era posible realizar un análisis de dicha señal de una mejor manera.
+La Transformada de Fourier facilitó el cambio de dominio, permitiendo traspasar la información de una señal del dominio temporal o espacial al de frecuencia y viceversa. Esto posibilitó un análisis más efectivo de las señales.
 
 \subsection{Cómo se ha aplicado el análisis de Fourier en la ciencia}
 
@@ -54,50 +48,47 @@ Podemos darnos cuenta de que el análisis de Fourier es más que solo una herram
 
 \subsection{Cómo se ha aplicado el análisis de Fourier en la inteligencia artificial}
 
-Un método que se ha aplicado a una amplia gama de aplicaciones de inteligencia artificial (IA) es el análisis de Fourier. Su habilidad de descomponer señales en sus componentes de frecuencia la hace ideal para tareas que involucran el procesamiento de señales, como:
+Un método que se ha aplicado a una amplia gama de aplicaciones de inteligencia artificial (IA) es el análisis de Fourier. Su habilidad de descomponer señales en sus componentes de frecuencia lo hace ideal para tareas que involucran el procesamiento de señales, como el reconocimiento de voz, el procesamiento de imágenes, la compresión de datos, el análisis de series temporales, la síntesis de sonido, las redes neuronales convolucionales (CNN) y el aprendizaje automático.
 
-\begin{enumerate} \def\labelenumi{\alph{enumi}.}
-	\item   \textbf{Reconocimiento de voz:} El análisis de Fourier se utiliza para   extraer características de las señales de voz que luego se pueden usar   para entrenar modelos de reconocimiento de voz.
-	\item   \textbf{Procesamiento de imágenes:} El análisis de Fourier se puede   usar para analizar imágenes y extraer características como texturas,   bordes y formas. Estas características se pueden usar para tareas como   la clasificación de imágenes, la detección de objetos y el   reconocimiento facial.
-	\item \textbf{Compresión de datos:} El análisis de Fourier se puede usar   para comprimir datos al eliminar componentes de frecuencia que no son   perceptibles para el ser humano. Esto se utiliza en una variedad de   aplicaciones, como la compresión de imágenes y audio.
-	\item \textbf{Análisis de series temporales:} El análisis de Fourier se   puede usar para analizar series temporales, como datos financieros o   climáticos. Esto se puede usar para identificar tendencias, patrones y   anomalías en los datos.
-	\item \textbf{Síntesis de sonido:} El análisis de Fourier se puede usar para   sintetizar sonidos al combinar componentes de frecuencia específicos.   Esto se utiliza en una variedad de aplicaciones, como la creación de   música y efectos de sonido.
-	\item \textbf{Redes neuronales convolucionales (CNN):} Las CNN son un tipo de red neuronal que se utiliza para el procesamiento de imágenes. Las CNN utilizan filtros convolucionales que funcionan de manera similar   al análisis de Fourier para detectar características en las imágenes.
-	\item \textbf{Aprendizaje automático:} El análisis de Fourier se puede usar   como una herramienta de preprocesamiento para el aprendizaje   automático. Al descomponer las señales en sus componentes de   frecuencia, el análisis de Fourier puede ayudar a los modelos de   aprendizaje automático a identificar patrones y relaciones en los datos.
-\end{enumerate}
+En el reconocimiento de voz, el análisis de Fourier se utiliza para extraer características de las señales de voz que luego se pueden usar para entrenar modelos de reconocimiento de voz. En el procesamiento de imágenes, el análisis de Fourier se puede usar para analizar imágenes y extraer características como texturas, bordes y formas. Estas características se pueden usar para tareas como la clasificación de imágenes, la detección de objetos y el reconocimiento facial.
+
+En cuanto a la compresión de datos, el análisis de Fourier se puede usar para comprimir datos al eliminar componentes de frecuencia que no son perceptibles para el ser humano. Esto se utiliza en una variedad de aplicaciones, como la compresión de imágenes y audio. En el análisis de series temporales, el análisis de Fourier se puede usar para analizar series temporales, como datos financieros o climáticos, lo que permite identificar tendencias, patrones y anomalías en los datos.
+
+En la síntesis de sonido, el análisis de Fourier se puede usar para sintetizar sonidos al combinar componentes de frecuencia específicos. Esto se utiliza en una variedad de aplicaciones, como la creación de música y efectos de sonido. Las redes neuronales convolucionales (CNN) utilizan filtros convolucionales que funcionan de manera similar al análisis de Fourier para detectar características en las imágenes. Por último, en el aprendizaje automático, el análisis de Fourier se puede usar como una herramienta de preprocesamiento para ayudar a los modelos de aprendizaje automático a identificar patrones y relaciones en los datos.
 
 A continuación se muestran unos ejemplos de las diferentes aplicaciones que tiene el análisis de Fourier:
 
-\begin{itemize}
-	\item \textbf{DeepMind WaveNet:} WaveNet es un modelo de aprendizaje automático que utiliza el análisis de Fourier para generar audio de   alta calidad.
-	\item \textbf{OpenAI Jukebox:} Jukebox es un modelo de aprendizaje automático que utiliza el análisis de Fourier para generar música en   una variedad de estilos.
-	\item \textbf{Facebook DeepFace:} DeepFace es un modelo de reconocimiento   facial que utiliza el análisis de Fourier para extraer características   de las imágenes faciales. \end{itemize}
+\begin{inparaenum}[1)]
+	\item \emph{DeepMind WaveNet:} WaveNet es un modelo de aprendizaje automático que utiliza el análisis de Fourier para generar audio de alta calidad.
+    \item \emph{OpenAI Jukebox:} Jukebox es un modelo de aprendizaje automático que utiliza el análisis de Fourier para generar música en una variedad de estilos.
+    \item \emph{Facebook DeepFace:} DeepFace es un modelo de reconocimiento facial que utiliza el análisis de Fourier para extraer características de las imágenes faciales.
+\end{inparaenum}
 
 \subsection{Cómo se ha aplicado el análisis de Fourier en el cómputo paralelo}
 
-Anteriormente hablamos sobre las aplicaciones del análisis de Fourier en la Inteligencia Artificial, sin embargo, un punto importante de destacar es que su implementación requiere de un alto costo computacional, especialmente cuando hablamos de conjuntos de datos grandes.
+Anteriormente hablamos sobre las aplicaciones del análisis de Fourier en la inteligencia artificial. Sin embargo, un punto importante de destacar es que su implementación requiere de un alto costo computacional, especialmente cuando se trata de conjuntos de datos grandes.
 
-El cómputo paralelo ofrece una forma más sencilla y flexible de acelerar el análisis de Fourier al distribuir la carga de trabajo en diferentes procesadores, métodos o hilos que permitan un mejor desempeño y mayores beneficios, por ejemplo:
+El cómputo paralelo ofrece una forma más sencilla y flexible de acelerar el análisis de Fourier al distribuir la carga de trabajo en diferentes procesadores, métodos o hilos, permitiendo un mejor desempeño y mayores beneficios. Por ejemplo:
 
-\begin{enumerate} \def\labelenumi{\alph{enumi}.}
-	\item \textbf{Reducción del tiempo de ejecución}: El análisis de Fourier se puede realizar significativamente más rápido al distribuir la carga de trabajo entre múltiples procesadores.
-	\item \textbf{Mejora de la escalabilidad}: El análisis de Fourier se puede escalar a conjuntos de datos más grandes al utilizar más procesadores.
-	\item \textbf{Mayor eficiencia energética}: El cómputo paralelo puede ayudar a reducir el consumo de energía al distribuir la carga de trabajo   entre múltiples procesadores.
-\end{enumerate}
+\begin{inparaenum}[1)]
+    \item \emph{Reducción del tiempo de ejecución:} El análisis de Fourier se puede realizar significativamente más rápido al distribuir la carga de trabajo entre múltiples procesadores.
+    \item \emph{Mejora de la escalabilidad:} El análisis de Fourier se puede escalar a conjuntos de datos más grandes al utilizar más procesadores.
+    \item \emph{Mayor eficiencia energética:} El cómputo paralelo puede ayudar a reducir el consumo de energía al distribuir la carga de trabajo entre múltiples procesadores.
+\end{inparaenum}
 
 El análisis de Fourier en paralelo se ha utilizado en una amplia gama de aplicaciones, incluyendo:
 
-\begin{itemize}
-	\item \textbf{Algoritmos:} Se han desarrollado nuevos algoritmos para el   cálculo de la transformada de Fourier que son más eficientes en   paralelo.
-	\item \textbf{Hardware:} La disponibilidad de hardware de computación   paralela de alto rendimiento, como las GPU, ha hecho que el análisis   de Fourier en paralelo sea más accesible.
-	\item \textbf{Software:} Se han desarrollado bibliotecas de software para facilitar la implementación del análisis de Fourier en paralelo. \end{itemize}
+\begin{inparaenum}[1)]
+	\item \emph{Algoritmos:} Se han desarrollado nuevos algoritmos para el cálculo de la transformada de Fourier que son más eficientes en paralelo.
+    \item \emph{Hardware:} La disponibilidad de hardware de computación paralela de alto rendimiento, como las GPU, ha hecho que el análisis de Fourier en paralelo sea más accesible.
+    \item \emph{Software:} Se han desarrollado bibliotecas de software para facilitar la implementación del análisis de Fourier en paralelo.
+\end{inparaenum}
 
-\begin{itemize}
-	\item \textbf{Aprendizaje automático:} El análisis de Fourier en paralelo se está utilizando para acelerar el aprendizaje automático, como el entrenamiento de redes neuronales profundas.
-	\item \textbf{Big data:} El análisis de Fourier en paralelo se está utilizando para analizar conjuntos de datos grandes, como los   conjuntos de datos de sensores.
-	\item \textbf{IoT:} El análisis de Fourier en paralelo se está utilizando para procesar datos en tiempo real de dispositivos IoT.
-\end{itemize}
-
+\begin{inparaenum}[1)]
+	\item \emph{Aprendizaje automático:} El análisis de Fourier en paralelo se está utilizando para acelerar el aprendizaje automático, como el entrenamiento de redes neuronales profundas.
+    \item \emph{Big data:} El análisis de Fourier en paralelo se está utilizando para analizar conjuntos de datos grandes, como los conjuntos de datos de sensores.
+    \item \emph{IoT:} El análisis de Fourier en paralelo se está utilizando para procesar datos en tiempo real de dispositivos IoT.
+\end{inparaenum}
 \subsection{La teoría de procesos hijos con la llamada al sistema fork() en lenguaje C}
 
 La teoría de los procesos hijos con la llamada al sistema \texttt{fork()} en lenguaje C es fundamental en la programación de sistemas operativos Unix-like. \texttt{fork()} es una llamada al sistema que crea un nuevo proceso hijo idéntico al proceso padre. Este proceso hijo comparte el mismo código, datos y estado del proceso padre, pero tiene su propia copia de la tabla de descriptores de archivos.
@@ -122,7 +113,7 @@ Para utilizar la función fork() en un programa escrito en lenguaje C y destinad
 
 \textbf{Declaración de variables:} Es común declarar una variable de tipo \emph{\textbf{pid\_t}} para almacenar el resultado de la llamada a fork(). Esta variable se utiliza para determinar si el proceso actual es el proceso padre o el proceso hijo.
 
-\textbf{Llamada a fork()}: Se utiliza la función fork() en el punto del programa donde se desea crear un nuevo proceso hijo. La función devuelve un valor que indica el resultado de la llamada. Si es 0, se está ejecutando en el proceso hijo. Si es mayor que 0, se está ejecutando en el proceso padre y el valor devuelto es el PID (identificador de proceso) del proceso hijo. Si es -1, indica un error en la llamada a fork().
+\textbf{Llamada a \texttt{fork()}}: Se utiliza la función \texttt{fork()} en el punto del programa donde se desea crear un nuevo proceso hijo. La función devuelve un valor que indica el resultado de la llamada. Si es 0, se está ejecutando en el proceso hijo. Si es mayor que 0, se está ejecutando en el proceso padre y el valor devuelto es el PID (identificador de proceso) del proceso hijo. Si es -1, indica un error en la llamada a \texttt{fork()}.
 
 \textbf{Manejo de errores:} Es importante verificar el resultado de la llamada a fork() para detectar posibles errores. Si la llamada devuelve -1, se debe manejar el error adecuadamente, por ejemplo, imprimiendo un mensaje de error y saliendo del programa.
 
@@ -136,11 +127,11 @@ La memoria compartida es un mecanismo de comunicación entre procesos (IPC) que 
 
 \subsubsection{Principios fundamentales}
 
-\textbf{Espacio de Memoria Común}: La memoria compartida crea una región de memoria física accesible para todos los procesos involucrados. Esta región no pertenece a ningún proceso en particular, sino que se comparte entre ellos.
+\textbf{Espacio de memoria Común}: La memoria compartida crea una región de memoria física accesible para todos los procesos involucrados. Esta región no pertenece a ningún proceso en particular, sino que se comparte entre ellos.
 
-\textbf{Acceso Sincronizado}: Para evitar conflictos de datos, el acceso a la memoria compartida debe ser sincronizado. Los mecanismos de sincronización, como semáforos o mutexes, garantizan que solo un proceso pueda acceder a una sección crítica de la memoria en un momento dado.
+\textbf{Acceso sincronizado}: Para evitar conflictos de datos, el acceso a la memoria compartida debe ser sincronizado. Los mecanismos de sincronización, como semáforos o mutexes, garantizan que solo un proceso pueda acceder a una sección crítica de la memoria en un momento dado.
 
-\textbf{Mapeo de Memoria}: Cada proceso que desea acceder a la memoria compartida debe mapearla en su propio espacio de direcciones virtual. Esto permite que el proceso trate la región compartida como si fuera parte de su propia memoria privada.
+\textbf{Mapeo de memoria}: Cada proceso que desea acceder a la memoria compartida debe mapearla en su propio espacio de direcciones virtual. Esto permite que el proceso trate la región compartida como si fuera parte de su propia memoria privada.
 
 \subsubsection{Ventajas de la memoria compartida}
 
@@ -162,23 +153,23 @@ La memoria compartida es un mecanismo de comunicación entre procesos (IPC) que 
 
 Un programa típico que utiliza memoria compartida en C consta de las siguientes etapas:
 
-\textbf{Creación de la Memoria Compartida}: El primer proceso crea la región de memoria compartida utilizando funciones del sistema POSIX o Windows API. Se especifica el tamaño de la región y se asigna un nombre único.
+\textbf{Creación de la memoria compartida}: El primer proceso crea la región de memoria compartida utilizando funciones del sistema POSIX o Windows API. Se especifica el tamaño de la región y se asigna un nombre único.
 
-\textbf{Mapeo de la Memoria Compartida}: Cada proceso que desea acceder a la memoria compartida la mapea en su propio espacio de direcciones virtual. Se utiliza la dirección de memoria compartida obtenida en la etapa anterior.
+\textbf{Mapeo de la memoria compartida}: Cada proceso que desea acceder a la memoria compartida la mapea en su propio espacio de direcciones virtual. Se utiliza la dirección de memoria compartida obtenida en la etapa anterior.
 
-\textbf{Acceso y Modificación de Datos}: Los procesos acceden y modifican los datos en la memoria compartida utilizando punteros. Se deben utilizar mecanismos de sincronización para evitar conflictos de datos.
+\textbf{Acceso y modificación de datos}: Los procesos acceden y modifican los datos en la memoria compartida utilizando punteros. Se deben utilizar mecanismos de sincronización para evitar conflictos de datos.
 
-\textbf{Desvinculación de la Memoria Compartida}: Cuando un proceso ya no necesita acceder a la memoria compartida, la desvincula de su espacio de direcciones virtual.
+\textbf{Desvinculación de la memoria compartida}: Cuando un proceso ya no necesita acceder a la memoria compartida, la desvincula de su espacio de direcciones virtual.
 
-\textbf{Destrucción de la Memoria Compartida}: El último proceso que finaliza libera la memoria compartida utilizando funciones del sistema POSIX o Windows API.
+\textbf{Destrucción de la memoria compartida}: El último proceso que finaliza libera la memoria compartida utilizando funciones del sistema POSIX o Windows API.
 
 \subsubsection{Ejemplos de uso de la memoria compartida}
 
-\textbf{Implementación de Cachés:} La memoria compartida se puede usar para implementar cachés compartidos entre procesos, lo que mejora el rendimiento al reducir el acceso a datos lentos como el disco duro.
+\textbf{Implementación de cachés:} La memoria compartida se puede usar para implementar cachés compartidos entre procesos, lo que mejora el rendimiento al reducir el acceso a datos lentos como el disco duro.
 
-\textbf{Comunicación en Sistemas Multihilo}: La memoria compartida se puede usar para la comunicación entre hilos de ejecución dentro de un mismo proceso, lo que permite una colaboración eficiente entre ellos.
+\textbf{Comunicación en sistemas multihilo}: La memoria compartida se puede usar para la comunicación entre hilos de ejecución dentro de un mismo proceso, lo que permite una colaboración eficiente entre ellos.
 
-\textbf{Programación Paralela}: La memoria compartida es un mecanismo fundamental para la programación paralela, ya que permite a múltiples procesos compartir datos y colaborar en la ejecución de una tarea compleja.
+\textbf{Programación paralela}: La memoria compartida es un mecanismo fundamental para la programación paralela, ya que permite a múltiples procesos compartir datos y colaborar en la ejecución de una tarea compleja.
 
 \subsection{Semáforos en lenguaje C}
 
@@ -193,7 +184,7 @@ Los semáforos son un mecanismo de sincronización fundamental en la programaci�
 	\item   Operaciones Básicas: Las operaciones básicas sobre semáforos son:
 	\begin{itemize}
 		\item P(sem): Decrementa el valor del semáforo en una unidad. Si el valor     es cero, el proceso se bloquea hasta que el valor se incrementa a     uno, liberando el recurso.
-		\item     V(sem): Incrementa el valor del semáforo en una unidad. Si hay     procesos bloqueados esperando por el recurso, uno de ellos se libera     y puede continuar su ejecución.
+		\item V(sem): Incrementa el valor del semáforo en una unidad. Si hay     procesos bloqueados esperando por el recurso, uno de ellos se libera     y puede continuar su ejecución.
 	\end{itemize}
 \end{enumerate}
 
@@ -202,11 +193,11 @@ Los semáforos son un mecanismo de sincronización fundamental en la programaci�
 En C, los semáforos se implementan utilizando funciones del sistema POSIX (Portable Operating System Interface). Las funciones principales son:
 
 \begin{itemize}
-	\item sem\_open(): Crea o abre un semáforo existente.
-	\item sem\_wait(): Decrementa el valor del semáforo y bloquea el proceso si es necesario.
-	\item sem\_post(): Incrementa el valor del semáforo y libera un proceso bloqueado si hay alguno esperando.
-	\item sem\_close(): Cierra un semáforo.
-	\item sem\_unlink(): Elimina un semáforo del sistema.
+	\item \texttt{sem\_open()}: Crea o abre un semáforo existente.
+	\item \texttt{sem\_wait()}: Decrementa el valor del semáforo y bloquea el proceso si es necesario.
+	\item \texttt{sem\_post()}: Incrementa el valor del semáforo y libera un proceso bloqueado si hay alguno esperando.
+	\item \texttt{sem\_close()}: Cierra un semáforo.
+	\item \texttt{sem\_unlink()}: Elimina un semáforo del sistema.
 \end{itemize}
 
 Ventajas de los semáforos
@@ -219,9 +210,9 @@ Ventajas de los semáforos
 
 \subsubsection{Desventajas de los semáforos}
 
-\textbf{Problemas de Bloqueo:} Si los semáforos no se utilizan correctamente, pueden surgir problemas de bloqueo, donde los procesos se bloquean esperando recursos que nunca estarán disponibles.
+\textbf{Problemas de bloqueo:} Si los semáforos no se utilizan correctamente, pueden surgir problemas de bloqueo, donde los procesos se bloquean esperando recursos que nunca estarán disponibles.
 
-\textbf{Exclusión Mutua Estricta:} Los semáforos solo permiten la exclusión mutua estricta, lo que significa que solo un proceso puede acceder a un recurso crítico a la vez. Esto puede ser un problema en situaciones donde se requiere acceso simultáneo a partes no críticas del recurso.
+\textbf{Exclusión mutua estricta:} Los semáforos solo permiten la exclusión mutua estricta, lo que significa que solo un proceso puede acceder a un recurso crítico a la vez. Esto puede ser un problema en situaciones donde se requiere acceso simultáneo a partes no críticas del recurso.
 
 \subsection{Hilos en lenguaje C}
 
@@ -269,12 +260,14 @@ Y las operaciones posibles dentro de un hilo son:
 Las funciones posibles para gestionar los hilos son:
 
 \begin{itemize}
-	\item   pthread\_create: crea un hilo
-	\item   pthread\_equal: verifica la igualdad de dos identificadores de hilo
-	\item   pthread\_exit: termina el hilo que realiza la llamada
-	\item   pthread\_join: espera por el término de un hilo específico
-	\item   pthread\_self: regresa el ID del hilo que realiza la llamada
-	\item   pthread\_detach: configura la liberación de recursos cuando termina (hilo independiente)
-	\item   pthread\_getschedparam: obtiene la política de planificación y parámetros de un hilo específico \item   pthread\_setschedparam: establece la política de planificación y parámetros de un hilo especifico \item   pthread\_kill: envía una señal de terminar a un hilo específico
-	\item   pthread\_cancel: Permite a un hilo cancelar otro hilo del mismo proceso.
+	\item   \texttt{pthread\_create}: crea un hilo
+	\item   \texttt{pthread\_equal}: verifica la igualdad de dos identificadores de hilo
+	\item   \texttt{pthread\_exit}: termina el hilo que realiza la llamada
+	\item   \texttt{pthread\_join}: espera por el término de un hilo específico
+	\item   \texttt{pthread\_self}: regresa el ID del hilo que realiza la llamada
+	\item   \texttt{pthread\_detach}: configura la liberación de recursos cuando termina (hilo independiente)
+	\item   \texttt{pthread\_getschedparam}: obtiene la política de planificación y parámetros de un hilo específico
+	\item   \texttt{pthread\_setschedparam}: establece la política de planificación y parámetros de un hilo especifico
+	\item   \texttt{pthread\_kill}: envía una señal de terminar a un hilo específico
+	\item   \texttt{pthread\_cancel}: Permite a un hilo cancelar otro hilo del mismo proceso.
 \end{itemize}

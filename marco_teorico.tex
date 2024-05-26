@@ -7,14 +7,12 @@ Las series de Fourier permiten identificar los componentes de frecuencia de una 
 
 La idea principal detrás de las series de Fourier es que cualquier señal periódica puede ser descompuesta en una suma infinita de componentes sinusoidales de diferentes frecuencias, conocidas como armónicos. Esta descomposición permite analizar y entender el comportamiento de la señal en términos de sus componentes básicos.
 
-Matemáticamente, una serie de Fourier para una función periódica f(x) con período T se expresa como la \emph{serie de Fourier}\eqref{eq:serie_de_fourier}.
-\begin{figure}[H]
-	\begin{equation}
+Matemáticamente, una serie de Fourier para una función periódica \(\operatorname{f}(x)\) con período \(T\) se expresa como la \emph{serie de Fourier} en la \cref{eq:serie_de_fourier}.
+
+\begin{equation}
 	\operatorname{f}(t) = \frac{a_0}{2} + \sum_{n=1}^{+\infty} (a_n \cos(nt) + b_n \sin(nt))	
 	\label{eq:serie_de_fourier}
 \end{equation}
-\caption{Serie de Fourier}
-\end{figure}
 
 
 Donde posteriormente existe la participación de las fórmulas de Euler
@@ -30,7 +28,7 @@ Donde posteriormente existe la participación de las fórmulas de Euler
 	\caption{Coeficientes de la Serie de Fourier}
 \end{figure}
 
-Finalmente los números dados en \eqref{eq:fourier_coeffs} se denominan coeficientes de Fourier de \(\operatorname{f}(t)\). La serie trigonométrica con coeficientes dados, \emph{a y b} se denomina serie de Fourier de \(\operatorname{f}(t)\).
+Finalmente los números dados en la \cref{eq:fourier_coeffs} se denominan coeficientes de Fourier de \(\operatorname{f}(t)\). La serie trigonométrica con coeficientes dados, \emph{a y b} se denomina serie de Fourier de \(\operatorname{f}(t)\).
 
 La forma canónica de las series de Fourier es la que hemos estado utilizando hasta el momento, donde la función en cuestión estaba definida sobre el intervalo \([-\pi, \pi]\).
 

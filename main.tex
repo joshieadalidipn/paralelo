@@ -2,7 +2,7 @@
 \usepackage{csquotes}
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
-\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue, citecolor=blue, filecolor=blue]{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage[spanish, mexico]{babel}
 \usepackage{graphicx}
 \usepackage{amsmath}
@@ -13,7 +13,8 @@
 \usepackage[iso]{datetime}
 \usepackage{paralelo}
 \usepackage{physics} % Paquete de física
-
+\usepackage[spanish]{cleveref}
+\usepackage{paralist}
 \addbibresource{references.bib}
 \DeclareMathOperator{\f}{f}
 \date{\today}
@@ -21,9 +22,9 @@
 \begin{document}
 	\begingroup
 	\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
-	\input{portada.tex}
+	\include{portada.tex}
 	\pagenumbering{roman}
-	\input{resumen.tex}
+	\include{resumen.tex}
 	\endgroup
 	
 	\tableofcontents
@@ -32,16 +33,15 @@
 	
 	\begingroup
 	\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
-	\input{introduccion.tex}
-	\input{marco_teorico.tex}
-	\input{resolucion_ecuacion.tex}
-	\input{representacion_hoja_calculo.tex}
-	\input{tablas.tex}
-	\input{programacion_fourier_c.tex}
-	\input{conclusiones.tex}
+	\include{introduccion.tex}
+	\include{marco_teorico.tex}
+	\include{resolucion_ecuacion.tex}
+	\include{representacion_hoja_calculo.tex}
+	\include{tablas.tex}
+	\include{programacion_fourier_c.tex}
+	\include{conclusiones.tex}
 	\endgroup
 	
-	\nocite{*}
 	\newpage
 	\printbibliography[heading=bibnumbered]% Escribir la bibliografía
 	
