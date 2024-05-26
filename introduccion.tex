@@ -24,19 +24,19 @@ En 1962, gracias a las técnicas de difracción de rayos X, y el análisis de Fo
 
 El análisis de Fourier es súper útil en muchas áreas, incluso en cosas que usamos todos los días pero quizás no lo notamos. Vamos a ver cómo se aplica en diferentes campos.
 Tolamatl
-Primero, en telecomunicaciones, el análisis de Fourier es clave. Por ejemplo, en la modulación de frecuencia, que es como las radios transmiten música y voz. Lo que hacen es cambiar la frecuencia de una onda para enviar información. Luego está la compresión de audio, donde descomponen los sonidos en varias frecuencias para quitar partes que no necesitamos y hacer los archivos más pequeños. Y también ayuda a quitar ruido de las grabaciones, seleccionando solo las partes importantes de una señal.
+Primero, en telecomunicaciones, el análisis de Fourier es clave. Por ejemplo, en la modulación de frecuencia, que es como las radios transmiten música y voz. Lo que hacen es cambiar la frecuencia de una onda para enviar información. Luego está la compresión de audio, donde descomponen los sonidos en varias frecuencias para quitar partes que no necesitamos y hacer los archivos más pequeños\cite*{wikipedia-compresion-audio-2024}. Y también ayuda a quitar ruido de las grabaciones, seleccionando solo las partes importantes de una señal.
 
 En el procesamiento de imágenes, Fourier también es muy útil. Se usa para mejorar o quitar cosas de las fotos con algo llamado filtrado de imágenes. Esto puede hacer que algunas cosas se vean mejor o peor, dependiendo de lo que necesites. También ayuda a hacer las fotos más pequeñas sin perder mucha calidad, algo super útil para enviar imágenes por internet. Y algo muy beneficioso es que ayuda a que las computadoras reconozcan cosas en las fotos, como rostros al alcance de una aplicación.
 
 En ingeniería, este análisis es muy importante. Por ejemplo, ayuda a entender cómo vibran las cosas para asegurarse de que no se van a romper. Diseñar filtros para señales es otro uso, como cuando quieres escuchar algo específico y quitar el resto. Y analizar señales eléctricas para saber qué está pasando en un circuito o sistema.
 
-En ciencia y medicina, el análisis de Fourier también tiene su lugar. Se usa para entender las sustancias a nivel molecular con algo llamado análisis espectral. La resonancia magnética nuclear (RMN), que ayuda a ver dentro del cuerpo humano, usa Fourier para crear las imágenes. Y en el estudio del cerebro, como con la electroencefalografía (EEG), también es crucial para analizar las ondas cerebrales.
+En ciencia y medicina, el análisis de Fourier también tiene su lugar. Se usa para entender las sustancias a nivel molecular con algo llamado análisis espectral. La resonancia magnética nuclear (RMN), que ayuda a ver dentro del cuerpo humano, usa Fourier para crear las imágenes. Y en el estudio del cerebro, como con la electroencefalografía (EEG), también es crucial para analizar las ondas cerebrales\cite*{wikipedia-analisis-espectral-2019,mayo-clinic-eeg-2022}.
 
 Entonces, aunque parezca algo muy técnico y complicado, el análisis de Fourier está en muchas partes de nuestra vida diaria, ayudando en cosas desde escuchar música hasta la medicina avanzada.
 
 \subsection{Cómo se ha aplicado el análisis de Fourier en la ingeniería}
 
-El análisis de Fourier en la ingeniería es fundamental y se aplica de diversas maneras. Empezando por el análisis de vibraciones, es esencial para entender cómo las estructuras como edificios o puentes responden a diferentes frecuencias de vibración. Esto es crucial porque ayuda a prevenir fallos estructurales. Por ejemplo, al estudiar cómo vibra un puente, se pueden tomar medidas para evitar que entre en resonancia y posiblemente colapse. Este análisis no solo se limita a grandes estructuras, sino que también se aplica en la evaluación de la vida útil de componentes mecánicos, identificando signos de desgaste antes de que fallen.
+El análisis de Fourier en la ingeniería es fundamental y se aplica de diversas maneras. Empezando por el análisis de vibraciones, es esencial para entender cómo las estructuras como edificios o puentes responden a diferentes frecuencias de vibración\cite*{aula-2023}. Esto es crucial porque ayuda a prevenir fallos estructurales. Por ejemplo, al estudiar cómo vibra un puente, se pueden tomar medidas para evitar que entre en resonancia y posiblemente colapse. Este análisis no solo se limita a grandes estructuras, sino que también se aplica en la evaluación de la vida útil de componentes mecánicos, identificando signos de desgaste antes de que fallen.
 
 El diseño de filtros es otra aplicación importante. En este contexto, los filtros se utilizan para eliminar o atenuar frecuencias específicas dentro de una señal, mejorando así su calidad o extrayendo información relevante. Por ejemplo, en el mundo del audio, los filtros permiten separar o enfatizar ciertos sonidos, mientras que en telecomunicaciones, ayudan a limpiar la señal de ruido indeseado. Los principios de Fourier son esenciales para diseñar estos filtros, ya que proporcionan una manera de descomponer las señales en sus componentes de frecuencia y trabajar con ellos de manera más efectiva.
 
@@ -93,7 +93,7 @@ El análisis de Fourier en paralelo se ha utilizado en una amplia gama de aplica
 
 La teoría de los procesos hijos con la llamada al sistema \texttt{fork()} en lenguaje C es fundamental en la programación de sistemas operativos Unix-like. \texttt{fork()} es una llamada al sistema que crea un nuevo proceso hijo idéntico al proceso padre. Este proceso hijo comparte el mismo código, datos y estado del proceso padre, pero tiene su propia copia de la tabla de descriptores de archivos.
 
-El proceso padre puede continuar su ejecución después de llamar a \texttt{fork()}, mientras que el proceso hijo comienza su ejecución desde el mismo punto en el que se llamó a \texttt{fork()}. Esto permite la creación de procesos concurrentes que pueden ejecutar tareas independientes simultáneamente.
+El proceso padre puede continuar su ejecución después de llamar a \texttt{fork()}, mientras que el proceso hijo comienza su ejecución desde el mismo punto en el que se llamó a \texttt{fork()}. Esto permite la creación de procesos concurrentes que pueden ejecutar tareas independientes simultáneamente.\cite*{isola-programacion-concurrente-c-2019}
 
 El manejo de los procesos hijos con \texttt{fork()} es crucial para la implementación de sistemas multitarea y paralelos, ya que permite la ejecución de múltiples tareas de forma concurrente. Además, \texttt{fork()} es la base sobre la que se construyen otras llamadas al sistema relacionadas con la gestión de procesos, como \texttt{exec()}, que se utiliza para cargar un nuevo programa en un proceso existente.
 
@@ -186,11 +186,11 @@ Los semáforos son un mecanismo de sincronización fundamental en la programaci�
 		\item P(sem): Decrementa el valor del semáforo en una unidad. Si el valor     es cero, el proceso se bloquea hasta que el valor se incrementa a     uno, liberando el recurso.
 		\item V(sem): Incrementa el valor del semáforo en una unidad. Si hay     procesos bloqueados esperando por el recurso, uno de ellos se libera     y puede continuar su ejecución.
 	\end{itemize}
-\end{enumerate}
+\end{enumerate}\cite*{geeksforgeeks-semaforos-2022}
 
 \subsubsection{Implementación de semáforos en C}
 
-En C, los semáforos se implementan utilizando funciones del sistema POSIX (Portable Operating System Interface). Las funciones principales son:
+En C, los semáforos se implementan utilizando funciones del sistema POSIX (Portable Operating System Interface)\cite*{whiletruethendream-semaforos-posix-2018}. Las funciones principales son:
 
 \begin{itemize}
 	\item \texttt{sem\_open()}: Crea o abre un semáforo existente.
@@ -222,7 +222,7 @@ Cuando un hilo crea múltiples hilos, se le conoce como ``ejecución multihilo''
 
 \subsubsection{Características de los hilos}
 
-Los hilos logran que un programa se vuelva muy eficiente cuando puede explotar los recursos disponibles de una manera aceptable, todos los hilos comparten características entre ellas:
+Los hilos logran que un programa se vuelva muy eficiente cuando puede explotar los recursos disponibles de una manera aceptable, todos los hilos comparten características entre ellas:\cite*{rua-unam-hilos-c-no-date}
 
 \begin{itemize}
 	\item   El espacio de direcciones
@@ -270,4 +270,4 @@ Las funciones posibles para gestionar los hilos son:
 	\item   \texttt{pthread\_setschedparam}: establece la política de planificación y parámetros de un hilo especifico
 	\item   \texttt{pthread\_kill}: envía una señal de terminar a un hilo específico
 	\item   \texttt{pthread\_cancel}: Permite a un hilo cancelar otro hilo del mismo proceso.
-\end{itemize}
+\end{itemize} \cite*{man7-pthreads-no-date}

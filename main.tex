@@ -15,6 +15,7 @@
 \usepackage{physics} % Paquete de física
 \usepackage[spanish]{cleveref}
 \usepackage{paralist}
+\usepackage{tocloft}
 \addbibresource{references.bib}
 \DeclareMathOperator{\f}{f}
 \date{\today}
@@ -29,6 +30,9 @@
 	
 	\tableofcontents
 	\newpage
+	\listoffigures % Índice de figuras
+	\newpage
+	\listoftables % Índice de tablas
 	\pagenumbering{arabic}
 	
 	\begingroup
@@ -41,7 +45,7 @@
 	\include{programacion_fourier_c.tex}
 	\include{conclusiones.tex}
 	\endgroup
-	
+	\nocite{*}
 	\newpage
 	\printbibliography[heading=bibnumbered]% Escribir la bibliografía
 	
