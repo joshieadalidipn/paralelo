@@ -1,5 +1,6 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {table}{\numberline {1}{\ignorespaces Función original en el rango \(-2 \pi \) a \(2 \pi \)}}{39}{table.1}%
-\contentsline {table}{\numberline {2}{\ignorespaces Cálculo de \(a_n\) y \(b_n\)}}{40}{table.2}%
-\contentsline {table}{\numberline {3}{\ignorespaces Matriz de cálculo de los coeficientes de la serie}}{40}{table.3}%
-\contentsline {table}{\numberline {4}{\ignorespaces Cálculo de la serie}}{41}{table.4}%
+\contentsline {table}{\numberline {1}{\ignorespaces Función original en el rango \(-2 \pi \) a \(2 \pi \)}}{41}{table.1}%
+\contentsline {table}{\numberline {2}{\ignorespaces Cálculo de \(a_n\) y \(b_n\)}}{42}{table.2}%
+\contentsline {table}{\numberline {3}{\ignorespaces Matriz de cálculo de los coeficientes de la serie}}{42}{table.3}%
+\contentsline {table}{\numberline {4}{\ignorespaces Cálculo de la serie}}{43}{table.4}%
+\contentsline {table}{\numberline {5}{\ignorespaces Datos generados por el programa CUDA, listos para ser graficados. La tabla muestra los valores de las coordenadas \(x\) y \(y\), así como los valores correspondientes de \(y\_fourier\).}}{44}{table.5}%

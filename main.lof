@@ -1,55 +1,60 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Coeficientes de la Serie de Fourier}}{11}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Imagen 1A. Procedimiento de Fourier}}{14}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Imagen 2A. Procedimiento de Fourier}}{14}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Imagen 3A. Procedimiento de Fourier}}{15}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Imagen 4A. Procedimiento de Fourier}}{16}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Imagen 5A. Procedimiento de Fourier}}{17}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Imagen 6A. Procedimiento de Fourier}}{18}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Imagen 7A. Procedimiento de Fourier}}{19}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Imagen 8A. Procedimiento de Fourier}}{20}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Imagen 9A. Procedimiento de Fourier}}{21}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Imagen 1B. Procedimiento de Fourier}}{22}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Imagen 2B. Procedimiento de Fourier}}{23}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Imagen 3B. Procedimiento de Fourier}}{24}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Imagen 4B. Procedimiento de Fourier}}{25}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Imagen 5B. Procedimiento de Fourier}}{26}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Imagen 6B. Procedimiento de Fourier}}{26}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Imagen C1. Primero, establecemos la forma de la serie de la función \(f(x)\).}}{27}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Imagen C2. Primero determinaremos la forma cerrada del término \(a_n\).}}{28}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Imagen C3. Continuación del cálculo \(a_n\).}}{28}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Imagen C4. Continuación cálculo \(a_n\).}}{29}{figure.20}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Imagen C5. Continuación cálculo \(a_n\).}}{29}{figure.21}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Imagen C6. Finalmente, definimos que el término \(a_n\) es igual a lo que se muestra en la foto.}}{30}{figure.22}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Imagen C7. Continuamos con la determinación del término \(b_n\).}}{30}{figure.23}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Imagen C8. Y ese es el término \(b_n\) para la serie de Fourier. Sustituímos en la forma de la serie mencionada al principio. Cabe señalar que fue mucho más sencillo calcular \(b_n\) por la propiedad de la función seno de ser impar.}}{31}{figure.24}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Imagen 1D. Procedimiento de Fourier}}{32}{figure.25}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Imagen 2D. Procedimiento de Fourier}}{33}{figure.26}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Imagen 3D. Procedimiento de Fourier}}{34}{figure.27}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Imagen 4D. Procedimiento de Fourier}}{35}{figure.28}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Imagen 5D. Procedimiento de Fourier}}{36}{figure.29}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Figura 1. Función original}}{37}{figure.30}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Figura 3. Serie de Fourier aproximada en Excel}}{38}{figure.31}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Código}}{42}{figure.32}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Función \texttt {calculate\_coefficients}}}{43}{figure.33}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Función \texttt {fourier\_approximation}}}{43}{figure.34}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Función \texttt {export\_to\_csv}}}{44}{figure.35}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Función \texttt {main}}}{44}{figure.36}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Ejecución en GNU/Linux}}{45}{figure.37}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Aproximación para la serie de Fourier}}{45}{figure.38}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Aproximación para la serie de Fourier}}{46}{figure.39}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Gráfica original y aproximación de Fourier en C}}{46}{figure.40}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Código 1. Fuente: Autoría propia}}{47}{figure.41}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Código 2. Fuente: Autoría propia}}{47}{figure.42}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Código 3. Fuente: Autoría propia}}{48}{figure.43}%
-\contentsline {figure}{\numberline {44}{\ignorespaces Código 4. Fuente: Autoría propia}}{48}{figure.44}%
-\contentsline {figure}{\numberline {45}{\ignorespaces Código 5. Fuente: Autoría propia}}{48}{figure.45}%
-\contentsline {figure}{\numberline {46}{\ignorespaces Código 6. Fuente: Autoría propia}}{49}{figure.46}%
-\contentsline {figure}{\numberline {47}{\ignorespaces Compilación y ejecución. Fuente: Autoría propia}}{49}{figure.47}%
-\contentsline {figure}{\numberline {48}{\ignorespaces Datos de archivo CSV. Fuente: Autoría propia}}{50}{figure.48}%
-\contentsline {figure}{\numberline {49}{\ignorespaces Gráfica generada. Fuente: Autoría propia}}{50}{figure.49}%
-\contentsline {figure}{\numberline {50}{\ignorespaces Comparación de la función original contra la aproximación de la serie de Fourier, calculado con la tecnología de MPI}}{51}{figure.50}%
-\contentsline {figure}{\numberline {51}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 1 de 4.}}{51}{figure.51}%
-\contentsline {figure}{\numberline {52}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 2 de 4.}}{52}{figure.52}%
-\contentsline {figure}{\numberline {53}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 3 de 4.}}{52}{figure.53}%
-\contentsline {figure}{\numberline {54}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 4 de 4.}}{52}{figure.54}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Coeficientes de la Serie de Fourier}}{13}{figure.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Imagen 1A. Procedimiento de Fourier}}{16}{figure.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Imagen 2A. Procedimiento de Fourier}}{16}{figure.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Imagen 3A. Procedimiento de Fourier}}{17}{figure.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Imagen 4A. Procedimiento de Fourier}}{18}{figure.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Imagen 5A. Procedimiento de Fourier}}{19}{figure.6}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Imagen 6A. Procedimiento de Fourier}}{20}{figure.7}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Imagen 7A. Procedimiento de Fourier}}{21}{figure.8}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Imagen 8A. Procedimiento de Fourier}}{22}{figure.9}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Imagen 9A. Procedimiento de Fourier}}{23}{figure.10}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Imagen 1B. Procedimiento de Fourier}}{24}{figure.11}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Imagen 2B. Procedimiento de Fourier}}{25}{figure.12}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Imagen 3B. Procedimiento de Fourier}}{26}{figure.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Imagen 4B. Procedimiento de Fourier}}{27}{figure.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Imagen 5B. Procedimiento de Fourier}}{28}{figure.15}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Imagen 6B. Procedimiento de Fourier}}{28}{figure.16}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Imagen C1. Primero, establecemos la forma de la serie de la función \(f(x)\).}}{29}{figure.17}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Imagen C2. Primero determinaremos la forma cerrada del término \(a_n\).}}{30}{figure.18}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Imagen C3. Continuación del cálculo \(a_n\).}}{30}{figure.19}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Imagen C4. Continuación cálculo \(a_n\).}}{31}{figure.20}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Imagen C5. Continuación cálculo \(a_n\).}}{31}{figure.21}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Imagen C6. Finalmente, definimos que el término \(a_n\) es igual a lo que se muestra en la foto.}}{32}{figure.22}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Imagen C7. Continuamos con la determinación del término \(b_n\).}}{32}{figure.23}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Imagen C8. Y ese es el término \(b_n\) para la serie de Fourier. Sustituímos en la forma de la serie mencionada al principio. Cabe señalar que fue mucho más sencillo calcular \(b_n\) por la propiedad de la función seno de ser impar.}}{33}{figure.24}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Imagen 1D. Procedimiento de Fourier}}{34}{figure.25}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Imagen 2D. Procedimiento de Fourier}}{35}{figure.26}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Imagen 3D. Procedimiento de Fourier}}{36}{figure.27}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Imagen 4D. Procedimiento de Fourier}}{37}{figure.28}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Imagen 5D. Procedimiento de Fourier}}{38}{figure.29}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Figura 1. Función original}}{39}{figure.30}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Figura 3. Serie de Fourier aproximada en Excel}}{40}{figure.31}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Código}}{45}{figure.32}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Función \texttt {calculate\_coefficients}}}{46}{figure.33}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Función \texttt {fourier\_approximation}}}{46}{figure.34}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Función \texttt {export\_to\_csv}}}{47}{figure.35}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Función \texttt {main}}}{47}{figure.36}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Ejecución en GNU/Linux}}{48}{figure.37}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Aproximación para la serie de Fourier}}{48}{figure.38}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Aproximación para la serie de Fourier}}{49}{figure.39}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Gráfica original y aproximación de Fourier en C}}{49}{figure.40}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Código 1. Fuente: Autoría propia}}{50}{figure.41}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Código 2. Fuente: Autoría propia}}{50}{figure.42}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Código 3. Fuente: Autoría propia}}{51}{figure.43}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Código 4. Fuente: Autoría propia}}{51}{figure.44}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Código 5. Fuente: Autoría propia}}{51}{figure.45}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Código 6. Fuente: Autoría propia}}{52}{figure.46}%
+\contentsline {figure}{\numberline {47}{\ignorespaces Compilación y ejecución. Fuente: Autoría propia}}{52}{figure.47}%
+\contentsline {figure}{\numberline {48}{\ignorespaces Datos de archivo CSV. Fuente: Autoría propia}}{53}{figure.48}%
+\contentsline {figure}{\numberline {49}{\ignorespaces Gráfica generada. Fuente: Autoría propia}}{53}{figure.49}%
+\contentsline {figure}{\numberline {50}{\ignorespaces Comparación de la función original contra la aproximación de la serie de Fourier, calculado con la tecnología de MPI}}{54}{figure.50}%
+\contentsline {figure}{\numberline {51}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 1 de 4.}}{54}{figure.51}%
+\contentsline {figure}{\numberline {52}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 2 de 4.}}{55}{figure.52}%
+\contentsline {figure}{\numberline {53}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 3 de 4.}}{55}{figure.53}%
+\contentsline {figure}{\numberline {54}{\ignorespaces Fragmento del código fuente en C para MPI. Parte 4 de 4.}}{55}{figure.54}%
+\contentsline {figure}{\numberline {56}{\ignorespaces Fragmento del código fuente en C para CUDA. Imagen 1 de 4.}}{56}{figure.56}%
+\contentsline {figure}{\numberline {55}{\ignorespaces Comparación entre la función original y su implementación en CUDA. La gráfica muestra cómo la función original (línea azul continua) y la versión paralelizada con CUDA (línea roja discontinua) se comportan de manera diferente en términos de rendimiento y precisión. Se observa una discrepancia notable en los valores de la función, especialmente en los extremos.}}{56}{figure.55}%
+\contentsline {figure}{\numberline {57}{\ignorespaces Fragmento del código fuente en C para CUDA. Imagen 2 de 4.}}{57}{figure.57}%
+\contentsline {figure}{\numberline {58}{\ignorespaces Fragmento del código fuente en C para CUDA. Imagen 3 de 4.}}{57}{figure.58}%
+\contentsline {figure}{\numberline {59}{\ignorespaces Fragmento del código fuente en C para CUDA. Imagen 4 de 4.}}{58}{figure.59}%

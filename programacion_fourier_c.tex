@@ -190,3 +190,46 @@ En este apartado se mostrará y explicará el código implementado ahora con hil
 	\includegraphics[width=0.8\textwidth]{media/mpi_codigo_4.png}
 	\caption{Fragmento del código fuente en C para MPI. Parte 4 de 4.}
 \end{figure}
+
+\subsection{Ejecución del código con CUDA}
+\begin{figure}[H]
+	\includegraphics[width=0.8\textwidth]{media/resultados_cuda.jpeg}
+	\caption{Comparación entre la función original y su implementación en CUDA. La gráfica muestra cómo la función original (línea azul continua) y la versión paralelizada con CUDA (línea roja discontinua) se comportan de manera diferente en términos de rendimiento y precisión. Se observa una discrepancia notable en los valores de la función, especialmente en los extremos.}
+	\label{fig:comparacion_cuda}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{media/codigo_cuda_1.png}
+	\caption{Fragmento del código fuente en C para CUDA. Imagen 1 de 4.}
+	\label{img:codigo_cuda_1}
+\end{figure}
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{media/codigo_cuda_2.png}
+	\caption{Fragmento del código fuente en C para CUDA. Imagen 2 de 4.}
+	\label{img:codigo_cuda_2}
+\end{figure}
+\begin{figure}
+	\includegraphics[width=\textwidth]{media/codigo_cuda_3.png}
+	\caption{Fragmento del código fuente en C para CUDA. Imagen 3 de 4.}
+	\label{img:codigo_cuda_3}
+\end{figure}
+\begin{figure}
+	\includegraphics[width=\textwidth]{media/codigo_cuda_4.png}
+	\caption{Fragmento del código fuente en C para CUDA. Imagen 4 de 4.}
+	\label{img:codigo_cuda_4}
+\end{figure}
+
+Este código en C utiliza CUDA para calcular los coeficientes de la serie de Fourier de una función definida, y luego exporta los datos de la función original y su aproximación de Fourier a un archivo CSV.
+
+El programa define algunas constantes, incluyendo el valor de \(\pi\) (\texttt{PI}), el número de términos de la serie de Fourier (\texttt{N\_TERMS}), y el número de puntos en la discretización de la integral (\texttt{N}). La función \texttt{f} es una función definida como \(f(x) = x^4 - 5x^2 - 2x + 1\).
+
+Para calcular los coeficientes de la serie de Fourier, se define un kernel de CUDA (\texttt{calculate\_coefficients\_kernel}) que toma como parámetros los arreglos de coeficientes \texttt{a} y \texttt{b}, el número de términos \texttt{n\_terms}, la longitud del intervalo \texttt{L}, y el paso \texttt{h}. Este kernel se ejecuta en la GPU y realiza la integración numérica para calcular los coeficientes de Fourier \(a_n\) y \(b_n\) utilizando las funciones trigonométricas \(\cos\) y \(\sin\).
+
+La función \texttt{calculate\_coefficients} se encarga de gestionar la memoria en el dispositivo y en el host, y de lanzar el kernel de CUDA. Primero, calcula el coeficiente \(a_0\) en el host y luego lanza el kernel para calcular los demás coeficientes en la GPU. Los coeficientes calculados se copian de vuelta al host una vez que el kernel ha terminado su ejecución.
+
+La función \texttt{fourier\_approximation} calcula la aproximación de Fourier en un punto dado \(x\) utilizando los coeficientes \texttt{a} y \texttt{b}, sumando los términos correspondientes de la serie de Fourier.
+
+Finalmente, la función \texttt{export\_to\_csv} escribe los datos de la función original y su aproximación de Fourier a un archivo CSV. Recorre un rango de valores de \(x\), calcula \(f(x)\) y la aproximación de Fourier en cada punto, y escribe estos valores en el archivo CSV con el formato adecuado.
+
+El \texttt{main} del programa inicializa los arreglos de coeficientes, llama a \texttt{calculate\_coefficients} para calcular los coeficientes de Fourier, y luego llama a \texttt{export\_to\_csv} para exportar los datos a un archivo CSV llamado \texttt{fourier\_data.csv}.

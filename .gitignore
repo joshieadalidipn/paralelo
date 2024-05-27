@@ -21,3 +21,4 @@ code/graphing.py
 code/requirements.txt
 code/fourier_mpi.c
 references_bibertool.bib
+code/comparacion_cuda.jpeg

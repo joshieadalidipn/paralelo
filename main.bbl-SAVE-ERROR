@@ -1,0 +1,667 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{wikipedia-compresion-audio-2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3265373fcf936b9bba619369aec37fcc}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod},
+           given={Colaboradores},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{fullhash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{bibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorbibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authornamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorfullhash}{3265373fcf936b9bba619369aec37fcc}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Compresión de Audio}}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/wiki/Compresi%C3%B3n_de_audio
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/wiki/Compresi%C3%B3n_de_audio
+      \endverb
+    \endentry
+    \entry{wikipedia-analisis-espectral-2019}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3265373fcf936b9bba619369aec37fcc}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod},
+           given={Colaboradores},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{fullhash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{bibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorbibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authornamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorfullhash}{3265373fcf936b9bba619369aec37fcc}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{2}
+      \field{title}{{Análisis Espectral}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/wiki/An%C3%A1lisis_espectral
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/wiki/An%C3%A1lisis_espectral
+      \endverb
+    \endentry
+    \entry{mayo-clinic-eeg-2022}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{{Electroencefalografía (EEG) - Mayo Clinic}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+      \endverb
+      \verb{url}
+      \verb https://www.mayoclinic.org/es/tests-procedures/eeg/about/pac-20393875
+      \endverb
+    \endentry
+    \entry{aula-2023}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=015caafc650003bf14c57d2b63ebc14e}{%
+           family={Aula},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{015caafc650003bf14c57d2b63ebc14e}
+      \strng{fullhash}{015caafc650003bf14c57d2b63ebc14e}
+      \strng{bibnamehash}{015caafc650003bf14c57d2b63ebc14e}
+      \strng{authorbibnamehash}{015caafc650003bf14c57d2b63ebc14e}
+      \strng{authornamehash}{015caafc650003bf14c57d2b63ebc14e}
+      \strng{authorfullhash}{015caafc650003bf14c57d2b63ebc14e}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Qué es el Análisis de Vibraciones, para Qué Sirve y Cómo Funciona}}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://www.cursosaula21.com/que-es-el-analisis-de-vibraciones/
+      \endverb
+      \verb{url}
+      \verb https://www.cursosaula21.com/que-es-el-analisis-de-vibraciones/
+      \endverb
+    \endentry
+    \entry{isola-programacion-concurrente-c-2019}{book}{}
+      \name{author}{1}{}{%
+        {{hash=4462657c68acb7135163da3a36576cc3}{%
+           family={Isola},
+           familyi={I\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Facultad de Ingeniería, Universidad de la República, Uruguay}%
+      }
+      \strng{namehash}{4462657c68acb7135163da3a36576cc3}
+      \strng{fullhash}{4462657c68acb7135163da3a36576cc3}
+      \strng{bibnamehash}{4462657c68acb7135163da3a36576cc3}
+      \strng{authorbibnamehash}{4462657c68acb7135163da3a36576cc3}
+      \strng{authornamehash}{4462657c68acb7135163da3a36576cc3}
+      \strng{authorfullhash}{4462657c68acb7135163da3a36576cc3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Aspectos Prácticos de la Programación Concurrente en C: Hilos, Semáforos y Memoria Compartida}}
+      \field{year}{2019}
+    \endentry
+    \entry{geeksforgeeks-semaforos-2022}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f1e069787ece74531d112559945c6871}{%
+           family={GeeksforGeeks},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f1e069787ece74531d112559945c6871}
+      \strng{fullhash}{f1e069787ece74531d112559945c6871}
+      \strng{bibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorbibnamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authornamehash}{f1e069787ece74531d112559945c6871}
+      \strng{authorfullhash}{f1e069787ece74531d112559945c6871}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Semaphores in Operating System}}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://www.geeksforgeeks.org/videos/semaphores-in-operating-system/
+      \endverb
+      \verb{url}
+      \verb https://www.geeksforgeeks.org/videos/semaphores-in-operating-system/
+      \endverb
+    \endentry
+    \entry{whiletruethendream-semaforos-posix-2018}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=f19a8778f46e57b0da8e8de6ba1bc7f9}{%
+           family={WhileTrueThenDream},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{f19a8778f46e57b0da8e8de6ba1bc7f9}
+      \strng{fullhash}{f19a8778f46e57b0da8e8de6ba1bc7f9}
+      \strng{bibnamehash}{f19a8778f46e57b0da8e8de6ba1bc7f9}
+      \strng{authorbibnamehash}{f19a8778f46e57b0da8e8de6ba1bc7f9}
+      \strng{authornamehash}{f19a8778f46e57b0da8e8de6ba1bc7f9}
+      \strng{authorfullhash}{f19a8778f46e57b0da8e8de6ba1bc7f9}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{Programar en C: Semáforos POSIX}}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=YC61729PThw
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=YC61729PThw
+      \endverb
+    \endentry
+    \entry{rua-unam-hilos-c-no-date}{misc}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labeltitlesource}{title}
+      \field{title}{{Hilos en Lenguaje C}}
+      \verb{urlraw}
+      \verb https://www.rua.unam.mx/portal/recursos/ficha/8966/hilos-en-lenguaje-c
+      \endverb
+      \verb{url}
+      \verb https://www.rua.unam.mx/portal/recursos/ficha/8966/hilos-en-lenguaje-c
+      \endverb
+    \endentry
+    \entry{man7-pthreads-no-date}{misc}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{title}{{pthreads(7) - Linux Manual Page}}
+      \verb{urlraw}
+      \verb https://www.man7.org/linux/man-pages/man7/pthreads.7.html
+      \endverb
+      \verb{url}
+      \verb https://www.man7.org/linux/man-pages/man7/pthreads.7.html
+      \endverb
+    \endentry
+    \entry{khan-academy-regla-trapecio-no-date}{misc}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{{Comprender la Regla del Trapecio (Artículo) | Khan Academy}}
+      \verb{urlraw}
+      \verb https://es.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/a/understanding-the-trapezoid-rule
+      \endverb
+      \verb{url}
+      \verb https://es.khanacademy.org/math/ap-calculus-ab/ab-integration-new/ab-6-2/a/understanding-the-trapezoid-rule
+      \endverb
+    \endentry
+    \entry{castillo-2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=aaee1d7ca19f5412fd1be4ccfc5fdbea}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={Abel\bibnamedelimb Gibran\bibnamedelima Castillo},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{aaee1d7ca19f5412fd1be4ccfc5fdbea}
+      \strng{fullhash}{aaee1d7ca19f5412fd1be4ccfc5fdbea}
+      \strng{bibnamehash}{aaee1d7ca19f5412fd1be4ccfc5fdbea}
+      \strng{authorbibnamehash}{aaee1d7ca19f5412fd1be4ccfc5fdbea}
+      \strng{authornamehash}{aaee1d7ca19f5412fd1be4ccfc5fdbea}
+      \strng{authorfullhash}{aaee1d7ca19f5412fd1be4ccfc5fdbea}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{title}{{Práctica 2: Procesamiento de Señales por la Transformada de Fourier (Discreta y Rápida)}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=_sZrE6qYRTg
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=_sZrE6qYRTg
+      \endverb
+    \endentry
+    \entry{wikipedia-frecuencia-modulada-2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3265373fcf936b9bba619369aec37fcc}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod},
+           given={Colaboradores},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{fullhash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{bibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorbibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authornamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorfullhash}{3265373fcf936b9bba619369aec37fcc}
+      \field{extraname}{3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Frecuencia Modulada}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/wiki/Frecuencia_modulada
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/wiki/Frecuencia_modulada
+      \endverb
+    \endentry
+    \entry{wikipedia-resonancia-magnetica-2024}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=3265373fcf936b9bba619369aec37fcc}{%
+           family={Wikipedia},
+           familyi={W\bibinitperiod},
+           given={Colaboradores},
+           giveni={C\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{fullhash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{bibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorbibnamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authornamehash}{3265373fcf936b9bba619369aec37fcc}
+      \strng{authorfullhash}{3265373fcf936b9bba619369aec37fcc}
+      \field{extraname}{4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{1}
+      \field{title}{{Resonancia Magnética Nuclear}}
+      \field{year}{2024}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://es.wikipedia.org/wiki/Resonancia_magn%C3%A9tica_nuclear
+      \endverb
+      \verb{url}
+      \verb https://es.wikipedia.org/wiki/Resonancia_magn%C3%A9tica_nuclear
+      \endverb
+    \endentry
+    \entry{glopezbadilla-senales-electricas-2005}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=5192d70f10bf1aa20066a0acab538c4d}{%
+           family={Glopezbadilla},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{5192d70f10bf1aa20066a0acab538c4d}
+      \strng{fullhash}{5192d70f10bf1aa20066a0acab538c4d}
+      \strng{bibnamehash}{5192d70f10bf1aa20066a0acab538c4d}
+      \strng{authorbibnamehash}{5192d70f10bf1aa20066a0acab538c4d}
+      \strng{authornamehash}{5192d70f10bf1aa20066a0acab538c4d}
+      \strng{authorfullhash}{5192d70f10bf1aa20066a0acab538c4d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{title}{{Análisis de Señales Eléctricas}}
+      \field{year}{2005}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.monografias.com/trabajos24/seniales-electricas/seniales-electricas
+      \endverb
+      \verb{url}
+      \verb https://www.monografias.com/trabajos24/seniales-electricas/seniales-electricas
+      \endverb
+    \endentry
+    \entry{mendoza-soto-potencia-circuitos-2020}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=7151b093b634c0a12b87a4d8e576697a}{%
+           family={Mendoza-Soto},
+           familyi={M\bibinithyphendelim S\bibinitperiod},
+           given={JL},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7151b093b634c0a12b87a4d8e576697a}
+      \strng{fullhash}{7151b093b634c0a12b87a4d8e576697a}
+      \strng{bibnamehash}{7151b093b634c0a12b87a4d8e576697a}
+      \strng{authorbibnamehash}{7151b093b634c0a12b87a4d8e576697a}
+      \strng{authornamehash}{7151b093b634c0a12b87a4d8e576697a}
+      \strng{authorfullhash}{7151b093b634c0a12b87a4d8e576697a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{10}
+      \field{title}{{Cálculo de Potencia en Circuitos Eléctricos con Series de Fourier}}
+      \field{year}{2020}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=cWpD_P0XARY
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=cWpD_P0XARY
+      \endverb
+    \endentry
+    \entry{carrillo-gonzalez-fundamentos-fourier-2003}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b3792af27609a32c7cfd3ca402f27127}{%
+           family={Carrillo\bibnamedelima González},
+           familyi={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Camilo\bibnamedelima José},
+           giveni={C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vigo, GAMESAL}%
+      }
+      \strng{namehash}{b3792af27609a32c7cfd3ca402f27127}
+      \strng{fullhash}{b3792af27609a32c7cfd3ca402f27127}
+      \strng{bibnamehash}{b3792af27609a32c7cfd3ca402f27127}
+      \strng{authorbibnamehash}{b3792af27609a32c7cfd3ca402f27127}
+      \strng{authornamehash}{b3792af27609a32c7cfd3ca402f27127}
+      \strng{authorfullhash}{b3792af27609a32c7cfd3ca402f27127}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Fundamentos del Análisis de Fourier}}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
+    \entry{marridi-filtrado-fourier-2022}{article}{}
+      \name{author}{1}{}{%
+        {{hash=c96d89cdd4c33a9e56faf90ac03a6d0d}{%
+           family={Marridi},
+           familyi={M\bibinitperiod},
+           given={Zaid},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{c96d89cdd4c33a9e56faf90ac03a6d0d}
+      \strng{fullhash}{c96d89cdd4c33a9e56faf90ac03a6d0d}
+      \strng{bibnamehash}{c96d89cdd4c33a9e56faf90ac03a6d0d}
+      \strng{authorbibnamehash}{c96d89cdd4c33a9e56faf90ac03a6d0d}
+      \strng{authornamehash}{c96d89cdd4c33a9e56faf90ac03a6d0d}
+      \strng{authorfullhash}{c96d89cdd4c33a9e56faf90ac03a6d0d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{5}
+      \field{title}{{Filtrado de Datos con Fourier}}
+      \field{year}{2022}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://numxl.com/es/blogs/filtrado-de-datos-con-fourier/
+      \endverb
+      \verb{url}
+      \verb https://numxl.com/es/blogs/filtrado-de-datos-con-fourier/
+      \endverb
+    \endentry
+    \entry{oppenheim-discrete-time-2013}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3d2d1d8687de3baa625d3d62a7e0e464}{%
+           family={Oppenheim},
+           familyi={O\bibinitperiod},
+           given={Alan\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=fd563e605c810572cece256b4271abd4}{%
+           family={Schafer},
+           familyi={S\bibinitperiod},
+           given={Ronald\bibnamedelima W.},
+           giveni={R\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{6b65fefc61ef07dfae5fcb9291d4aceb}
+      \strng{fullhash}{6b65fefc61ef07dfae5fcb9291d4aceb}
+      \strng{bibnamehash}{6b65fefc61ef07dfae5fcb9291d4aceb}
+      \strng{authorbibnamehash}{6b65fefc61ef07dfae5fcb9291d4aceb}
+      \strng{authornamehash}{6b65fefc61ef07dfae5fcb9291d4aceb}
+      \strng{authorfullhash}{6b65fefc61ef07dfae5fcb9291d4aceb}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{7}
+      \field{title}{{Discrete-Time Signal Processing}}
+      \field{year}{2013}
+      \true{nocite}
+    \endentry
+    \entry{sebastian-harmonicos-redes-2017}{article}{}
+      \name{author}{1}{}{%
+        {{hash=cfdc989292d10ac586ac33ff14b93c91}{%
+           family={Sebastián},
+           familyi={S\bibinitperiod},
+           given={Carrasquilla\bibnamedelima Becerra},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{cfdc989292d10ac586ac33ff14b93c91}
+      \strng{fullhash}{cfdc989292d10ac586ac33ff14b93c91}
+      \strng{bibnamehash}{cfdc989292d10ac586ac33ff14b93c91}
+      \strng{authorbibnamehash}{cfdc989292d10ac586ac33ff14b93c91}
+      \strng{authornamehash}{cfdc989292d10ac586ac33ff14b93c91}
+      \strng{authorfullhash}{cfdc989292d10ac586ac33ff14b93c91}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{CORE}
+      \field{month}{1}
+      \field{title}{{Análisis de Armónicos en Redes Residenciales}}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://core.ac.uk/works/45957485
+      \endverb
+      \verb{url}
+      \verb https://core.ac.uk/works/45957485
+      \endverb
+    \endentry
+    \entry{uam-aplicaciones-fourier-no-date}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ed81f12be9d0076b0b8f6e664182fe5d}{%
+           family={UAM},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed81f12be9d0076b0b8f6e664182fe5d}
+      \strng{fullhash}{ed81f12be9d0076b0b8f6e664182fe5d}
+      \strng{bibnamehash}{ed81f12be9d0076b0b8f6e664182fe5d}
+      \strng{authorbibnamehash}{ed81f12be9d0076b0b8f6e664182fe5d}
+      \strng{authornamehash}{ed81f12be9d0076b0b8f6e664182fe5d}
+      \strng{authorfullhash}{ed81f12be9d0076b0b8f6e664182fe5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Aplicaciones del Análisis de Fourier}}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://matematicas.uam.es/~fernando.chamizo/asignaturas/model1314/resumen05.pdf
+      \endverb
+      \verb{url}
+      \verb http://matematicas.uam.es/~fernando.chamizo/asignaturas/model1314/resumen05.pdf
+      \endverb
+    \endentry
+    \entry{instituto-microelectronica-diseno-filtros-no-date}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=077b91e9bc07392a802ea0112e1f86b9}{%
+           family={Microelectrónica\bibnamedelimb de\bibnamedelima Sevilla},
+           familyi={M\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Instituto},
+           giveni={I\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=776d932a1ca42fa1fe6b2ca44bb79b8f}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={F.\bibnamedelimi V.},
+           giveni={F\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=e7e1906cba0a2bf82cea40df6b487207}{%
+           family={Espejo},
+           familyi={E\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=befac43ef8cf785a690742d6501f0e23}{%
+           family={Carmona},
+           familyi={C\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b96dc0345223f30b650199379d5cfbaa}
+      \strng{fullhash}{808401673de381da399611f00b94a4fe}
+      \strng{bibnamehash}{808401673de381da399611f00b94a4fe}
+      \strng{authorbibnamehash}{808401673de381da399611f00b94a4fe}
+      \strng{authornamehash}{b96dc0345223f30b650199379d5cfbaa}
+      \strng{authorfullhash}{808401673de381da399611f00b94a4fe}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Conceptos Fundamentales en el Diseño de Filtros}}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://www2.imse-cnm.csic.es/elec_esi/asignat/ASC/2001-02/pdf/tema2.pdf
+      \endverb
+      \verb{url}
+      \verb http://www2.imse-cnm.csic.es/elec_esi/asignat/ASC/2001-02/pdf/tema2.pdf
+      \endverb
+    \endentry
+    \entry{universidad-valencia-diseno-filtros-no-date}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=09eb8a27f45aa7f4da25023139cfdff5}{%
+           family={Valencia},
+           familyi={V\bibinitperiod},
+           given={Universidad},
+           giveni={U\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{09eb8a27f45aa7f4da25023139cfdff5}
+      \strng{fullhash}{09eb8a27f45aa7f4da25023139cfdff5}
+      \strng{bibnamehash}{09eb8a27f45aa7f4da25023139cfdff5}
+      \strng{authorbibnamehash}{09eb8a27f45aa7f4da25023139cfdff5}
+      \strng{authornamehash}{09eb8a27f45aa7f4da25023139cfdff5}
+      \strng{authorfullhash}{09eb8a27f45aa7f4da25023139cfdff5}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Conceptos Fundamentales en el Diseño de Filtros}}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://www2.imse-cnm.csic.es/elec_esi/asignat/ASC/2001-02/pdf/tema2.pdf
+      \endverb
+      \verb{url}
+      \verb http://www2.imse-cnm.csic.es/elec_esi/asignat/ASC/2001-02/pdf/tema2.pdf
+      \endverb
+    \endentry
+    \entry{electronica-automatica-realce-imagenes-no-date}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c4cb78262062c517e14eebb00330be44}{%
+           family={Electrónica\bibnamedelimb y\bibnamedelima Automática},
+           familyi={E\bibinitperiod\bibinitdelim y\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Departamento},
+           giveni={D\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{c4cb78262062c517e14eebb00330be44}
+      \strng{fullhash}{c4cb78262062c517e14eebb00330be44}
+      \strng{bibnamehash}{c4cb78262062c517e14eebb00330be44}
+      \strng{authorbibnamehash}{c4cb78262062c517e14eebb00330be44}
+      \strng{authornamehash}{c4cb78262062c517e14eebb00330be44}
+      \strng{authorfullhash}{c4cb78262062c517e14eebb00330be44}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Técnicas de Realce de Imágenes}}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://dea.unsj.edu.ar/imagenes/recursos/capitulo3.pdf
+      \endverb
+      \verb{url}
+      \verb http://dea.unsj.edu.ar/imagenes/recursos/capitulo3.pdf
+      \endverb
+    \endentry
+    \entry{wood-vibraciones-estructurales-no-date}{misc}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labeltitlesource}{title}
+      \field{title}{{Vibraciones Estructurales y Formas de Evitarlas | Vibration, Dynamics and Noise – Wood}}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://vdn-es.woodplc.com/knowledge-center/structural-vibration-and-ways-to-avoid-it/
+      \endverb
+      \verb{url}
+      \verb https://vdn-es.woodplc.com/knowledge-center/structural-vibration-and-ways-to-avoid-it/
+      \endverb
+    \endentry
+    \entry{roxas-semaforos-unix-linux-no-date}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2f877495e4de270f948407233d00249}{%
+           family={Roxas},
+           familyi={R\bibinitperiod},
+           given={Chuidiang},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2f877495e4de270f948407233d00249}
+      \strng{fullhash}{e2f877495e4de270f948407233d00249}
+      \strng{bibnamehash}{e2f877495e4de270f948407233d00249}
+      \strng{authorbibnamehash}{e2f877495e4de270f948407233d00249}
+      \strng{authornamehash}{e2f877495e4de270f948407233d00249}
+      \strng{authorfullhash}{e2f877495e4de270f948407233d00249}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Semáforos en C para Unix/Linux}}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://old.chuidiang.org/clinux/ipcs/semaforo.php
+      \endverb
+      \verb{url}
+      \verb https://old.chuidiang.org/clinux/ipcs/semaforo.php
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
