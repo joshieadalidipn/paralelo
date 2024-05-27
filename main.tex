@@ -1,52 +1,66 @@
 \documentclass{article}
+
+% Paquetes de idioma y codificación
+\usepackage[spanish, mexico]{babel}
 \usepackage{csquotes}
 \PassOptionsToPackage{unicode}{hyperref}
 \PassOptionsToPackage{hyphens}{url}
 \usepackage[hidelinks]{hyperref}
-\usepackage[spanish, mexico]{babel}
-\usepackage{graphicx}
-\usepackage{amsmath}
+
+% Paquetes de matemáticas y física
 \usepackage{amsfonts}
+\usepackage{amsmath}
 \usepackage{amssymb}
+\usepackage{physics}
+
+% Paquetes gráficos y de figuras/tablas
 \usepackage{float}
+\usepackage{graphicx}
+
+% Paquetes de bibliografía
 \usepackage[backend=biber,style=ieee,language=spanish]{biblatex}
-\usepackage[iso]{datetime}
-\usepackage{paralelo}
-\usepackage{physics} % Paquete de física
-\usepackage[spanish]{cleveref}
-\usepackage{paralist}
-\usepackage{tocloft}
 \addbibresource{references.bib}
+
+% Otros paquetes
+\usepackage[iso]{datetime}
+\usepackage{paralist}
+\usepackage{paralelo}
+\usepackage{tocloft}
+
+% Paquetes de referencias cruzadas
+\usepackage[spanish]{cleveref}
+
+% Declaraciones adicionales
 \DeclareMathOperator{\f}{f}
 \date{\today}
 
 \begin{document}
-	\begingroup
-	\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
-	\include{portada.tex}
-	\pagenumbering{roman}
-	\include{resumen.tex}
-	\endgroup
-	
-	\tableofcontents
-	\newpage
-	\listoffigures % Índice de figuras
-	\newpage
-	\listoftables % Índice de tablas
-	\pagenumbering{arabic}
-	
-	\begingroup
-	\setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
-	\include{introduccion.tex}
-	\include{marco_teorico.tex}
-	\include{resolucion_ecuacion.tex}
-	\include{representacion_hoja_calculo.tex}
-	\include{tablas.tex}
-	\include{programacion_fourier_c.tex}
-	\include{conclusiones.tex}
-	\endgroup
-	\nocite{*}
-	\newpage
-	\printbibliography[heading=bibnumbered]% Escribir la bibliografía
-	
+    \begingroup
+    \setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
+    \include{portada}
+    \pagenumbering{roman}
+    \include{0_resumen}
+    \endgroup
+
+    \tableofcontents
+    \newpage
+    \listoffigures % Índice de figuras
+    \newpage
+    \listoftables % Índice de tablas
+    \pagenumbering{arabic}
+
+    \begingroup
+    \setlength{\parskip}{1em} % Ajustar el espacio entre párrafos
+    \include{1_introduccion}
+    \include{2_marco_teorico}
+    \include{3_resolucion_ecuacion}
+    \include{4_representacion_hoja_calculo}
+    \include{5_tablas}
+    \include{6_programacion_fourier_c}
+    \include{7_conclusiones}
+    \endgroup
+    \nocite{*}
+    \newpage
+    \printbibliography[heading=bibnumbered] % Escribir la bibliografía
+
 \end{document}
